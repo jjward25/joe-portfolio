@@ -1,6 +1,9 @@
-import Sidebar from './sidebar';
 import React from 'react'; 
+import './main.css';
+import Sidebar from '../components/sidebar';
+
 import { layoutGenerator } from 'react-break';
+import MobileMenu from '../components/mobile-menu';
 
 const layout = layoutGenerator({
     mobile: 0,
@@ -14,13 +17,17 @@ const layout = layoutGenerator({
   
   function Experience() {
   return (
-      <div className='about-wrap'>
-          <OnMobile>Mobile Menu</OnMobile>
+      <div className='experience-wrap'>
+
+          <OnMobile><MobileMenu/></OnMobile>
+
           <OnAtLeastTablet>
               <Sidebar/>
           </OnAtLeastTablet>
-          <div className='about-content'>
-              Experience Content
+
+          <div className='experience-content'>
+
+        
           </div>
 
       </div>

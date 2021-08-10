@@ -1,3 +1,6 @@
+/***********************/
+/*** Sidebar content ***/
+/***********************/
 .sidebar {
     margin: 0;
     height: 100vh;
@@ -96,9 +99,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 100%;
-        padding-right: 25%;
-        padding-left: 25%;
-        width: 100%;
+        
     }
     .social-item {
         display: flex;
@@ -106,6 +107,9 @@
         align-items: center;
         justify-content: center; 
         position: relative;    
+        padding-right: 25%;
+        padding-left: 25%;
+        width: 100%;
     }
     #social-icon, #social-button {
         display: flex;
@@ -158,3 +162,55 @@
     padding-right: 20%;
     padding-bottom: 8%;
 }
+
+
+
+/*************************/
+/** Mobile Menu Buttons **/
+/*************************/
+.mobile-social-section {
+    max-height: 100%;
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+#mobile-button {
+    width: 100%;
+    padding-top: 20%;
+    padding-left: 20%;
+    padding-right: 20%;
+    grid-area: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mobile-border-grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 5vh 5vh;
+    position: relative;
+}
+.mobile-border-box {
+    border-bottom: 2px solid #447A3F;
+}
+.mobile-border-images {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 0; left: 30%; bottom: 0; right: 0;
+    width: 40%;
+    
+}
+#mobile-border-pic{
+    max-width: 9vw;
+    padding-left: 2vw;
+    padding-right: 2vw;    
+}
+

@@ -1,5 +1,5 @@
 import React from 'react'; 
-import '../pages/main.css';
+import './components.css';
 import {Link} from 'react-router-dom';
 
 import bulb from '../assets/img-bulb.png';

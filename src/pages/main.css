@@ -1,7 +1,7 @@
 /************************/
 /*** Component Wraps ***/
 /************************/
-.desktop-home, .about-wrap {
+.desktop-home, .about-wrap, .services-wrap {
     margin: 0;
     max-width: 100vw;
     max-height: 100vh;
@@ -45,7 +45,7 @@
     grid-template-columns: 100%;
     grid-template-rows: 5vh 5vh;
     position: relative;
-    padding-top: 5%;
+    padding-top: 2.5%;
 }
 
 .border-box {
@@ -61,7 +61,7 @@
     position: absolute;
     left: 30%;
     width: 40%;
-    padding-top: 5%;
+    padding-top: 2.5%;
 }
 #border-pic{
     max-width: 8vw;
@@ -128,6 +128,7 @@
 }
 
 .about-header {
+    padding-top: 5%;
     padding-bottom: 5%;
     padding-right: 15%;
     font-size: 4vh;
@@ -138,55 +139,116 @@
     line-height: 1.7;
     padding-bottom: 3%;
 }
-/*************************/
-/** Mobile Menu Buttons **/
-/*************************/
-.mobile-social-section {
-    max-height: 100%;
-    max-width: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;  
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-}
-#mobile-button {
-    width: 100%;
-    padding-top: 20%;
-    padding-left: 20%;
-    padding-right: 20%;
-    grid-area: 1;
-    display: flex;
-    justify-content: flex-end;
-}
 
-.mobile-border-grid {
+
+
+/************************/
+/*** Gear Border CSS ***/
+/************************/
+.gear-border-grid {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 5vh 5vh;
     position: relative;
+    padding-top: 2.5%;
 }
-.mobile-border-box {
+
+.gear-border-box {
     border-bottom: 2px solid #447A3F;
 }
-.mobile-border-images {
+
+.gear-border-content {
     background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 50%;
+    max-height: 100%;
+    height: 100%;
 
     position: absolute;
-    top: 0; left: 30%; bottom: 0; right: 0;
-    width: 40%;
+    top: 0; left: 25%; bottom: 0; right: 0;
     
 }
-#mobile-border-pic{
-    max-width: 9vw;
-    padding-left: 2vw;
-    padding-right: 2vw;    
+#gear-border-pic{
+    max-width: 8vw;
+    padding-left: 2%;
+    padding-right: 2%;    
 }
 
+.gear-border-text {
+    font-size: 2vmax;
+}
+
+
+/************************/
+/*** Service Content ***/
+/************************/
+.services-content {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    min-height: 100%;
+
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 55% 30%;
+    overflow: hidden;
+}
+
+.skill-content {
+    display: grid;
+    grid-template-columns: 46% 8% 46%;
+}
+
+.skill-left-column {
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-buttons-left, .skill-buttons-right {
+    width: 100%;
+    max-height: 10vh;
+}
+
+#services-skill-button {
+    width: 20%;
+    max-height: 10vh;
+    height: 10vh;
+    padding: 3%
+}
+
+.skill-text {
+    font-size: 1.5vmax;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.skill-textbox-left {
+    padding-top:5%;
+    padding-right: 2.5%;
+}
+.skill-textbox-right {
+    padding-top:5%;
+    padding-left: 2.5%;
+}
+
+.services-footer {
+    border-top: 2px solid #447A3F;
+}
+
+.services-footer-header {
+    padding-top: 2.5%;
+    padding-left: 2.5%;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.services-footer-bullet {
+    padding-top: 2.5%;
+    padding-left: 2.5%;
+}
 
 /************************/
 /*** Mobile Views ***/
@@ -231,6 +293,12 @@
     .nav-text{
         padding-left: 15%;
         font-size: 2.5vh;
+    }
+    .about-header {
+        padding-top: 0;
+        padding-bottom: 5%;
+        padding-right: 15%;
+        font-size: 4vh;
     }
 }
 

@@ -2,9 +2,9 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/home';
 import About from './pages/about';
-import Experience from './components/experience';
-import Services from './components/services';
-import Testimonials from './components/testimonials';
+import Experience from './pages/experience';
+import Services from './pages/services';
+import Testimonials from './pages/testimonials';
 
 function App() {
   return (

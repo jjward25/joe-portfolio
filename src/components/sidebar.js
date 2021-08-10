@@ -1,5 +1,5 @@
 import React from 'react';
-import './sidebar.css'
+import './components.css'
 import { layoutGenerator } from 'react-break';
 import {Link} from 'react-router-dom';
 import name from '../assets/joeward.png';
