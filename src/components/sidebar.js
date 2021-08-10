@@ -1,7 +1,7 @@
 import React from 'react';
 import './sidebar.css'
 import { layoutGenerator } from 'react-break';
-
+import {Link} from 'react-router-dom';
 import name from '../assets/joeward.png';
 import selfie from '../assets/selfie-circle.png';
 import linkedin from '../assets/icon-linkedin.png';
@@ -24,26 +24,26 @@ return (
 
     <div className='sidebar'>
 
-        <div className='sidebar-title'><img src={name} alt='Joe Ward'  title={`Joe Ward`} id='title-img'/></div>
+        <Link to='/'><div className='sidebar-title'><img src={name} alt='Joe Ward'  title={`Joe Ward`} id='title-img'/></div></Link>
         <div className='sidebar-selfie'><img src={selfie} alt='TechGear' id='main-img'/></div>
         <div className='sidebar-slogan'>Let's make things, better.</div>
 
         <div className='social-section'>
-            <div className='social-item'>
+            {/* eslint-disable-next-line*/} 
+            <a href='https://www.linkedin.com/in/joe-ward1/' target="_blank" ><div className='social-item'>
                 <div className='social-icon'><img src={linkedin} alt='LinkedIn'  title={`LinkedIn`} id='social-button'/></div>
                 <OnAtLeastTablet className='social-title'>LinkedIn</OnAtLeastTablet>
-            </div>
-        
-            <div className='social-item'>
+            </div></a>
+            {/* eslint-disable-next-line*/} 
+            <a href='https://github.com/jjward25?tab=repositories' target="_blank" ><div className='social-item'>
                 <div className='social-icon'><img src={github} alt='github'  title={`Github`} id='social-button'/></div>
                 <OnAtLeastTablet className='social-title'>Github</OnAtLeastTablet>
-            </div>
-        
-
-            <div className='social-item'>
+            </div></a>
+            {/* eslint-disable-next-line*/} 
+            <a href='https://medium.com/cultural-commentary' target="_blank" ><div className='social-item'>
                 <div className='social-icon'><img src={medium} alt='medium'  title={`Medium`} id='social-button'/></div>
                 <OnAtLeastTablet className='social-title'>Medium</OnAtLeastTablet>
-            </div>
+            </div></a>
         </div>
 
         

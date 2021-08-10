@@ -1,5 +1,7 @@
-/*** Overall Desktop Home Components ***/
-.desktop-home {
+/************************/
+/*** Component Wraps ***/
+/************************/
+.desktop-home, .about-wrap {
     margin: 0;
     max-width: 100vw;
     max-height: 100vh;
@@ -10,7 +12,9 @@
     grid-template-columns: 30% 70%;
 }
 
-/*** Homepage only Content ***/
+/************************/
+/*** Homepage Content ***/
+/************************/
 .home-content {
     width: 100%;
     max-height: 100vh;
@@ -33,7 +37,9 @@
     width: 75%;
 }
 
-/*** Border Image ***/
+/************************/
+/*** Growth Border CSS ***/
+/************************/
 .border-grid {
     display: grid;
     grid-template-columns: 100%;
@@ -63,7 +69,9 @@
     padding-right: 2vw;    
 }
 
+/************************/
 /*** Homepage Nav Buttons ***/
+/************************/
 .home-nav {
     display: flex;
     flex-direction: column;
@@ -100,17 +108,96 @@
     font-size: 3vh;
 }
 
+/************************/
+/*** About Content ***/
+/************************/
+.about-content {
+    width: 100%;
+    max-height: 100vh;
+    min-height: 50vh;
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+}
 
+.about-box {
+    height: 100%;
+    width: 100%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+}
+
+.about-header {
+    padding-bottom: 5%;
+    padding-right: 15%;
+    font-size: 4vh;
+}
+
+.about-text {
+    font-size: 1.5vh;
+    line-height: 1.7;
+    padding-bottom: 3%;
+}
+/*************************/
+/** Mobile Menu Buttons **/
+/*************************/
+.mobile-social-section {
+    max-height: 100%;
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+#mobile-button {
+    width: 100%;
+    padding-top: 20%;
+    padding-left: 20%;
+    padding-right: 20%;
+    grid-area: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mobile-border-grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 5vh 5vh;
+    position: relative;
+}
+.mobile-border-box {
+    border-bottom: 2px solid #447A3F;
+}
+.mobile-border-images {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 0; left: 30%; bottom: 0; right: 0;
+    width: 40%;
+    
+}
+#mobile-border-pic{
+    max-width: 9vw;
+    padding-left: 2vw;
+    padding-right: 2vw;    
+}
+
+
+/************************/
 /*** Mobile Views ***/
+/************************/
 @media (max-device-width: 787px) {
-    .desktop-home {
+    .desktop-home, .about-wrap {
         display:grid;
         grid-template-columns: 100%;
         grid-template-rows: auto;
     }
-    .border-box {
-        border-bottom: none;
-    }
+
     .home-text {
        width: 100%;
        max-height: 3vh;
@@ -118,7 +205,7 @@
        padding-right: 20%;
        padding-bottom: 5%;
     }
-    .mobile-border-images {
+    .mobile-border-home {
         width: 100%;
         margin-bottom: 8%;
         display: flex;
@@ -146,3 +233,4 @@
         font-size: 2.5vh;
     }
 }
+

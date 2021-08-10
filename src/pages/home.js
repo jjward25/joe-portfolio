@@ -1,5 +1,5 @@
 import React from 'react'; 
-import './home.css'
+import './main.css'
 import { layoutGenerator } from 'react-break';
 import Sidebar from '../components/sidebar';
 import bulb from '../assets/img-bulb.png';
@@ -25,7 +25,7 @@ return (
         <Sidebar/>
         
         <OnMobile>
-            <div className='mobile-border-images'>
+            <div className='mobile-border-home'>
                 <img src={bulb} alt='bulb' id='border-pic'/>
                 <img src={tree} alt='tree' id='border-pic'/>
                 <img src={biz} alt='biz' id='border-pic'/>
