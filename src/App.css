@@ -28,6 +28,7 @@ html, body, #app, #app>div {
 
 a:link {
   text-decoration: none!important;
+  color: #000!important;
 }
 
 
