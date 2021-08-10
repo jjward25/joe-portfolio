@@ -13,7 +13,7 @@ import skillbar from '../assets/img-skillbar.png';
 const layout = layoutGenerator({
   mobile: 0,
   phablet: 550,
-  tablet: 768,
+  tablet: 787,
   desktop: 992,
 });
 
@@ -26,7 +26,7 @@ return (
 
         <div className='sidebar-title'><img src={name} alt='Joe Ward'  title={`Joe Ward`} id='title-img'/></div>
         <div className='sidebar-selfie'><img src={selfie} alt='TechGear' id='main-img'/></div>
-        <div className='sidebar-email'>Joseph.Ward@Outlook.com</div>
+        <div className='sidebar-slogan'>Let's make things, better.</div>
 
         <div className='social-section'>
             <div className='social-item'>
@@ -46,7 +46,8 @@ return (
             </div>
         </div>
 
-        <div className='sidebar-slogan'>Let's make things, better.</div>
+        
+        <div className='sidebar-email'>Joseph.Ward@Outlook.com</div>
         <div className='skill-icons'><img src={skillbar} alt='skillbar'  title={`skillbar`} id='skillbar'/></div>
         <div className='call-to-action'>Start with a free 30 minute consultation to see exactly how my skills and experience can work for you.</div>
  
