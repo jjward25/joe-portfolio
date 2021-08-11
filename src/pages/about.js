@@ -26,7 +26,7 @@ const layout = layoutGenerator({
           <OnAtLeastTablet>
               <Sidebar/>
           </OnAtLeastTablet>
-
+          <div></div>
           <div className='about-content'>
 
             <OnAtLeastTablet><div className='border-grid'>

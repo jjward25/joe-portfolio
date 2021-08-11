@@ -202,13 +202,13 @@
     display: flex;
     flex-direction: column;
     padding-left: 4.5%;
-    padding-right: 4.5%;
+    padding-right: 2%;
 
 }
 
 .skill-right-column {
     padding-right: 4.5%;
-    padding-left: 4.5%;
+    padding-left: 3%;
 }
 
 .skill-buttons-left {
@@ -263,15 +263,69 @@
 }
 
 /************************/
+/*** Experience Content ***/
+/************************/
+.experience-content {
+    display: grid;
+    grid-template-areas: 
+            "a a"
+            "b c"
+            "b c";
+    grid-template-rows: 12vh auto;
+    grid-template-columns: 15% 85%;
+    
+
+}
+.border-wrap {
+    grid-area: a;
+}
+.work-icon-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2%;
+    grid-area: b;
+}
+
+#work-icon {
+    padding: 15%;
+    max-width: 65%;
+}
+
+.experience-text-wrap {
+    padding-left: 5%;
+    padding-top: 1%;
+    max-width: 85%;
+    grid-area: c;
+}
+
+.experience-text {
+    font-size: 120%;
+    padding-bottom: 2%;
+}
+
+.experience-text-bold {
+    font-size: 120%;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+
+.experience-list {
+    font-size: 120%;
+    padding-bottom: 4%;
+}
+
+
+/************************/
 /*** Mobile Views ***/
 /************************/
 @media (max-device-width: 787px) {
-    .desktop-home, .about-wrap, .services-wrap {
+    .desktop-home, .about-wrap, .services-wrap, .experience-wrap {
         display:grid;
         grid-template-columns: 100%;
         grid-template-rows: auto;
     }
-    .about-box {
+    .about-box{
         padding-top: 22vh;
         display: flex;
         flex-direction: column;
@@ -318,7 +372,7 @@
     }
 
     /** Service Page ***/
-    .services-content {
+    .services-content, .experience-content  {
         display: flex;
         flex-direction: column; 
         padding-top: 22vh;
@@ -374,5 +428,42 @@
     .skill-buttons-left, .skill-buttons-right {
         padding-top: 5%;
     }
-}
 
+    .skill-left-column {
+        display: flex;
+        flex-direction: column;
+        padding-left: 4.5%;
+        padding-right: 4.5%;
+    }
+    
+    .skill-right-column {
+        padding-right: 4.5%;
+        padding-left: 4.5%;
+    }
+
+    /*** Experience Content ***/
+    .work-icon-wrap {
+        flex-direction: row;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #work-icon {
+        height: 100%;
+        width: 20%;
+        padding: 3.5%
+    }
+    .experience-text-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .experience-list {
+        padding-bottom: 10%;
+    }
+}

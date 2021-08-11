@@ -1,6 +1,7 @@
 import React from 'react'; 
 import './main.css'
 import { layoutGenerator } from 'react-break';
+import Sidebar2 from '../components/sidebar-mobile';
 import Sidebar from '../components/sidebar';
 import bulb from '../assets/img-bulb.png';
 import tree from '../assets/img-tree.png';
@@ -22,7 +23,8 @@ function Home() {
 return (
     <div className='desktop-home'>
         
-        <Sidebar/>
+        <OnAtLeastTablet><Sidebar/></OnAtLeastTablet>
+        <OnMobile><Sidebar2/></OnMobile>
         
         <OnMobile>
             <div className='mobile-border-home'>
@@ -31,7 +33,7 @@ return (
                 <img src={biz} alt='biz' id='border-pic'/>
             </div>
         </OnMobile>
-
+        <div></div>
         <div className='home-content'>
             
             <div className='home-text'>I want to help small businesses act like big businesses.</div>

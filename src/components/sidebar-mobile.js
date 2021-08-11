@@ -21,7 +21,7 @@ const OnAtLeastTablet = layout.isAtLeast('tablet');
 
 function Sidebar() {
 return (
-    <div className='sidebar-wrap'>
+    
     <div className='sidebar'>
 
         <Link to='/'><div className='sidebar-title'><img src={name} alt='Joe Ward'  title={`Joe Ward`} id='title-img'/></div></Link>
@@ -52,7 +52,7 @@ return (
         <div className='call-to-action'>Start with a free 30 minute consultation to see exactly how my skills and experience can work for you.</div>
  
     </div>
-    </div>
+    
 
 )};
 
