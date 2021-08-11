@@ -26,8 +26,7 @@ const layout = layoutGenerator({
           </OnAtLeastTablet>
 
           <div className='experience-content'>
-
-        
+            Content
           </div>
 
       </div>
