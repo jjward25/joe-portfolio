@@ -331,6 +331,10 @@
         align-items: left;
         align-content: left;
     }
+
+    .skill-desc {
+        padding-bottom: 2.5%;
+    }
     .services-footer {
         border-top: none;
         padding-bottom: 5%;
