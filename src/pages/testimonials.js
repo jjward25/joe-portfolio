@@ -30,7 +30,7 @@ const layout = layoutGenerator({
         <div className='testimonials-content'>
 
             <div className='testimonial-wrap'></div>
-                <div className='carousel-title'>Testimonal Blocks (Coming Soon</div>
+                <div className='carousel-title'>Testimonals Coming Soon :)</div>
            </div>
 
     </div>

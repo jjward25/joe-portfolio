@@ -69,7 +69,7 @@ const layout = layoutGenerator({
                     </Carousel>
                 </div>
 
-                <p className='experience-text'>In the spirit of 'more-is-more' I've attempted gaining a variety of skills and experiences, and I think my breadth of experience makes me particularly well suited to finding creative solutions for any team, industry or personalities.</p>
+                <p className='experience-text'>In the spirit of 'more-is-more' I've focused on gaining a variety of skills and experiences, and I think my breadth of experience makes me particularly well suited to finding creative solutions for any team, industry or personalities.</p>
                 <p className='experience-text'>I've been to 6 continents and most states. I worked all through high school and college, and have volunteered with homeless shelters, meal deliveries, summer school providers and others.</p>
                 <p className='experience-text'>My first full-time role was a rotation program that gave me experience with a comprehensive improvement initiative for our national sales team, analytics with SQL and Tableau, and formal project management practices.</p>
                 <p className='experience-text'>My second role was to set up formal operations for a small non-profit I had previously volunteered with. I led 401k enrollments, recruited new hires, set metrics and targets, and fostered continuous improvement before returning to build TD Ameritrade’s procurement analytics. In this role I developed flexible reporting tools, led key improvement initiatives, and created ad hoc reports for our C-Suite, the SEC, House of Reps, and more.</p>

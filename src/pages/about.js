@@ -40,10 +40,10 @@ const layout = layoutGenerator({
             <OnMobile className='mobile-filler'> </OnMobile>
             <div className='about-box'>
                 <div className='about-header'>“A creative problem solver with a more-is-more mindset”</div>
-                <div className='about-text'>In general, I think breadth matters more than depth. I think, past a certain point of awareness, there is far greater value in having a variety of experiences to pull from than reading more best-in-class consulting decks and whitepapers.</div>
+                <div className='about-text'>In general, I think breadth matters more than depth. I think, past a certain point of awareness, there is far greater value in having a variety of experiences to pull from than in reading more best-in-class consulting decks and whitepapers.</div>
                 <div className='about-text'>What is this baseline?  I think Einstein sets a good bar: "If you can't explain it simply, you don't understand it well enough."</div>
                 <div className='about-text'>It's important to know where to find the best practices (ie: what do the most recognized certifications teach?), how to use the tools, and do the work.  Skills have their own baseline competencies that depend on each job, but industries, companies, teams, and problems always just need to be understood.</div>
-                <div className='about-text'>This requires good communication - that means open, honest, and detail oriented. I foster an environment of trust on my engagements, acting on behalf of every team member as I help work on solutions to your teams biggest issues and give everyone more time to focus on the things they want to be doing.</div>
+                <div className='about-text'>This requires good communication - that means open, honest, and detail oriented. I foster an environment of trust on my engagements, acting on behalf of every team member as I help work on solutions to your team's biggest issues and give everyone more time to focus on the things they want to be doing.</div>
             </div>
 
           </div>
