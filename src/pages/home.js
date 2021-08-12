@@ -38,7 +38,7 @@ return (
             
             <div className='home-text'>I want to help small businesses act like big businesses.</div>
             <OnAtLeastTablet className='home-text'>I want to help smart teams find and use the right tools and data to facilitate their growth.  I want to help your business automate the boring stuff, identify inefficiencies, and implement solutions. </OnAtLeastTablet>
-            <OnAtLeastTablet className='home-text' id='alt-length'>I want to use my broad background, and experience with large corporations and small non-profits, to identify creative and comprehensive solutions that increase output from your key activities while giving your team meaningful amounts of time back.</OnAtLeastTablet>
+            <OnAtLeastTablet className='home-text' id='alt-length'>I use my broad background, and experience with large corporations and small non-profits, to identify creative and comprehensive possibilities that can give your team meaningful amounts of time back and solve your most pressing issues.</OnAtLeastTablet>
 
             <OnAtLeastTablet className='border-grid'>
                 <div className='border-box'></div>

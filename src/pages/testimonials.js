@@ -1,12 +1,8 @@
 import React from 'react'; 
 import './main.css';
 import Sidebar from '../components/sidebar';
-import { Carousel } from 'react-responsive-carousel';
 import { layoutGenerator } from 'react-break';
 import MobileMenu from '../components/mobile-menu';
-import procurementDash from '../assets/portfolio-tableau-procurement.png';
-import adeptWireframe from '../assets/portfolio-figma-adept.png';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
 const layout = layoutGenerator({

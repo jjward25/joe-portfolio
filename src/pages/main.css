@@ -208,23 +208,28 @@
 .skill-right-column {
     padding-right: 4.5%;
     padding-left: 3%;
+    display: flex;
+    flex-direction: column;
 }
 
 .skill-buttons-left {
     width: 100%;
-    max-height: 5vh;
+    height: 100%;
+    max-height: 7vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
 }
 .skill-buttons-right {
     width: 100%;
-    max-height: 5vh;
+    height: 100%;
+    max-height: 7vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 #services-skill-button {
-    width: 13%;
+    width: 14%;
     max-height: 100%;
+    padding: 1%;
 }
 
 .skill-text {
@@ -322,9 +327,14 @@
 }
 
 .carousel-wrap {
-    border-bottom: 2px solid #447A3F;
     padding-bottom: 4%;
-    margin-bottom: 5%;
+    position: relative;
+    z-index: 1;
+}
+
+.slider-wrapper {
+    border: 1px solid #447A3F;
+    border-radius: 8px;
 }
 
 .carousel-title {
@@ -334,11 +344,14 @@
 }
 
 .carousel-root, .carousel-slider, .slider-wrapper, .slider {
-    max-height: 30vh;
+    max-height: 45vh;
+}
+.carousel-item {
+    max-height: 35vh;
 }
 
-#portfolio-img, .carousel-item {
-    max-height: 30vh;
+#portfolio-img{
+    max-height: 35vh;
     height: 100%;
     max-width: 30vw;
     border-radius: 2%;
@@ -352,12 +365,10 @@
 }
 
 .legend {
-    max-width: 25vw;
+    
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 0!important;
-    left: 29%!important;
+    align-items: center;    
     opacity: .65!important;
 }
 
@@ -368,6 +379,7 @@
 .control-arrow {
     opacity: .4!important;
     background: #000!important;
+    border-radius: 8px;
 }
 
 /************************/
@@ -477,6 +489,8 @@
     
     .skill-buttons-left, .skill-buttons-right {
         padding-top: 5%;
+        display: flex;
+        justify-content: space-evenly;
     }
 
     .skill-left-column {
@@ -531,6 +545,13 @@
     .carousel-wrap {
         border-top: 2px solid #447A3F;
         margin-top: 5%;
+    }
+    .carousel-item {
+        max-height: 20vh;
+    }
+    #portfolio-img {
+        max-height: 20vh;
+        max-width: 25vh;
     }
 
 }

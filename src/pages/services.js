@@ -67,7 +67,7 @@ const layout = layoutGenerator({
 
                     <div className='skill-textbox'>
                         <div className='skill-text'>{'Strategic Planning & Best Practices Review'}</div>
-                        <div className='skill-desc'>{'Maybe you need to build out your reporting, or shore up your procurement practices. We design a custom solution, and compare it to best practices before implementing a final solution.'}</div>
+                        <div className='skill-desc'>{'Maybe you need to build out reporting, or shore up your procurement practices. We design a custom solution, and compare it to best practices before implementing.'}</div>
                         
                         <div className='skill-text'>{'Process Mapping & Design'}</div>
                         <div className='skill-desc'>{'Visualize what your team does every day. Every step, every tool, every point where you’re waiting on someone else.  Get everything on paper so we can find the biggest opportunities.'}</div>
@@ -76,7 +76,7 @@ const layout = layoutGenerator({
                         <div className='skill-desc'>{'Use both group and individual feedback, and the flat perspective of process maps to make the best decisions on your toughest questions.'}</div>
                         
                         <div className='skill-text'>{'Continuous Improvement'}</div>
-                        <div className='skill-desc'>{'A mix of establishing new meetings, analytics, idea boards, and building other tools to hekp you excute and maintain your improvement efforts.'}</div>
+                        <div className='skill-desc'>{'A mix of new meetings, analytics, idea boards, and building other tools to hekp you excute and maintain your improvement efforts.'}</div>
                         
                         <div className='skill-text'>{'Project Management'}</div>
                         <div className='skill-desc'>{'I have experience leading large cross-functional projects and communicating consistently across levels and teams.'}</div>

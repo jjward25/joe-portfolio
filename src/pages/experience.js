@@ -5,7 +5,6 @@ import Sidebar from '../components/sidebar';
 import { layoutGenerator } from 'react-break';
 import MobileMenu from '../components/mobile-menu';
 import gear from '../assets/gear-icon.png';
-import citi from '../assets/work-citi.png';
 import pmp from '../assets/work-pmp.png';
 import schwab from '../assets/work-schwab.png';
 import tda from '../assets/work-tda.png';
@@ -71,9 +70,9 @@ const layout = layoutGenerator({
                 </div>
 
                 <p className='experience-text'>In the spirit of 'more-is-more' I've attempted gaining a variety of skills and experiences, and I think my breadth of experience makes me particularly well suited to finding creative solutions for any team, industry or personalities.</p>
-                <p className='experience-text'>I've been to 6 continents and most states. I've volunteered with homeless shelters, meal deliveries, summer school providers and others.</p>
-                <p className='experience-text'>I worked at a supermarket all through high school, and spent college working at a restaurant, a dining hall, and two summers in asset valuations at Citigroup.</p>
-                <p className='experience-text'>My second role was to set up formal operations for a small non-profit I had previously volunteered with. I led 401k enrollments, recruited new hires, set metrics and targets, and fostered continuous improvement before returning to build TD Ameritrade’s procurement analytics. In this role I developed flexible reporting tools, led key improvement initiatives, and created ad hoc reports for our C-Suite, the SEC, House of Reps, and more.  I spent 7 years with TD Ameritrade and about a year each with Schwab and Practice Makes Perfect.</p>
+                <p className='experience-text'>I've been to 6 continents and most states. I worked all through high school and college, and have volunteered with homeless shelters, meal deliveries, summer school providers and others.</p>
+                <p className='experience-text'>My first full-time role was a rotation program that gave me experience with a comprehensive improvement initiative for our national sales team, analytics with SQL and Tableau, and formal project management practices.</p>
+                <p className='experience-text'>My second role was to set up formal operations for a small non-profit I had previously volunteered with. I led 401k enrollments, recruited new hires, set metrics and targets, and fostered continuous improvement before returning to build TD Ameritrade’s procurement analytics. In this role I developed flexible reporting tools, led key improvement initiatives, and created ad hoc reports for our C-Suite, the SEC, House of Reps, and more.</p>
                 <p className='experience-text-bold'>{'Some key accomplishments include: '}</p>
                 <li className='experience-list'>{'Leading a project to create new “spend channels” so lower-risk purchases could be completed quicker. The project had several legal implications and impacted multiple teams’ processes, as well as the way any of our 10,000 employees could make purchases that totalled ~$17m annually.'}</li>  
                 <li className='experience-list'>Building a flexible, code-and-dashboard based analytics environment, starting from a few existing manual-input excel workbooks at TD Ameritrade.</li>

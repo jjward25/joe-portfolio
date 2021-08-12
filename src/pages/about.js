@@ -44,11 +44,7 @@ const layout = layoutGenerator({
                 <div className='about-text'>What is this baseline?  I think Einstein sets a good bar: "If you can't explain it simply, you don't understand it well enough."</div>
                 <div className='about-text'>It's important to know where to find the best practices (ie: what do the most recognized certifications teach?), how to use the tools, and do the work.  Skills have their own baseline competencies that depend on each job, but industries, companies, teams, and problems always just need to be understood.</div>
                 <div className='about-text'>This requires good communication - that means open, honest, and detail oriented. I foster an environment of trust on my engagements, acting on behalf of every team member as I help work on solutions to your teams biggest issues and give everyone more time to focus on the things they want to be doing.</div>
-                <div className='about-text'></div>
-                <div className='about-text'></div>
             </div>
-
-            I solve problems 
 
           </div>
 
