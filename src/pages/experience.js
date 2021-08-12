@@ -9,6 +9,10 @@ import citi from '../assets/work-citi.png';
 import pmp from '../assets/work-pmp.png';
 import schwab from '../assets/work-schwab.png';
 import tda from '../assets/work-tda.png';
+import procurementDash from '../assets/portfolio-tableau-procurement.png';
+import adeptWireframe from '../assets/portfolio-figma-adept.png';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 
 
 const layout = layoutGenerator({
@@ -41,28 +45,49 @@ const layout = layoutGenerator({
                         <div className='gear-border-text' id='right'>Experience</div>
                     </div>
             </OnAtLeastTablet>
+            <OnMobile className='mobile-filler'> </OnMobile>
 
             <div className='work-icon-wrap'>
-                <img src={citi} alt='citi' id='work-icon' title='Citigroup'/>
-                <img src={pmp} alt='pmp' id='work-icon' title='Practice Makes Perfect'/>
-                <img src={tda} alt='tda' id='work-icon' title='TD Ameritrade'/>
                 <img src={schwab} alt='schwab' id='work-icon' title='Charles Schwab'/>
+                <img src={tda} alt='tda' id='work-icon' title='TD Ameritrade'/>
+                <img src={pmp} alt='pmp' id='work-icon' title='Practice Makes Perfect'/>
             </div>
 
             <div className='experience-text-wrap'>
-                <p className='experience-text'>{'At TD Ameritrade, I led a project to create new “spend channels” so lower-risk purchases could be done quicker.  The project had several legal implications and impacted multiple teams’ processes, as well as the way any of our 10,000 employees could make purchases that totalled ~$17m annually.'}</p>
-                <p className='experience-text'>{'My analyses and reports also helped our team make key decisions on contracts, staffing, strategic priorities, and business partner relationships.'}</p>
+
+                <div className='carousel-wrap'>
+                    <div className='carousel-title'>Work Samples</div>
+                    {/* eslint-disable-next-line*/} 
+                    <Carousel showArrows={true} showThumbs={false} showArrows={true} infiniteLoop={true} centerMode={.33} swipeable={true}>
+                        <div className='carousel-item'>
+                            <img src={procurementDash} alt='tableau' id='portfolio-img'/>
+                            <div className='legend'>Analytics Dashboard</div>
+                        </div>
+                        <div className='carousel-item'>
+                            <img src={adeptWireframe} alt='adept' id='portfolio-img'/>
+                            <div className='legend'>Website Wireframe</div>
+                        </div>
+                    </Carousel>
+                </div>
+
+                <p className='experience-text'>In the spirit of 'more-is-more' I've attempted gaining a variety of skills and experiences, and I think my breadth of experience makes me particularly well suited to finding creative solutions for any team, industry or personalities.</p>
+                <p className='experience-text'>I've been to 6 continents and most states. I've volunteered with homeless shelters, meal deliveries, summer school providers and others.</p>
+                <p className='experience-text'>I worked at a supermarket all through high school, and spent college working at a restaurant, a dining hall, and two summers in asset valuations at Citigroup.</p>
+                <p className='experience-text'>My second role was to set up formal operations for a small non-profit I had previously volunteered with. I led 401k enrollments, recruited new hires, set metrics and targets, and fostered continuous improvement before returning to build TD Ameritrade’s procurement analytics. In this role I developed flexible reporting tools, led key improvement initiatives, and created ad hoc reports for our C-Suite, the SEC, House of Reps, and more.  I spent 7 years with TD Ameritrade and about a year each with Schwab and Practice Makes Perfect.</p>
                 <p className='experience-text-bold'>{'Some key accomplishments include: '}</p>
-                <li className='experience-list'>Building a flexible, code-and-dashboard based reporting and analytics environment from a few existing manual-input excel workbooks. </li>
-                <li className='experience-list'>Joining projects mid-flight; building out the spend channels above, and later helping a Schwab data migration team build out a backlog and project plan to get back on schedule.</li>
-                <li className='experience-list'>Using analytics to identify which business partners had the most impact on our processes and working to improve hand-offs and communication with all of them.</li>
+                <li className='experience-list'>{'Leading a project to create new “spend channels” so lower-risk purchases could be completed quicker. The project had several legal implications and impacted multiple teams’ processes, as well as the way any of our 10,000 employees could make purchases that totalled ~$17m annually.'}</li>  
+                <li className='experience-list'>Building a flexible, code-and-dashboard based analytics environment, starting from a few existing manual-input excel workbooks at TD Ameritrade.</li>
+                <li className='experience-list'>Helping an in-flight Schwab data migration team build out a backlog and project plan to get back on schedule.</li>
+                <li className='experience-list'>Using analytics to identify which business partners had the most impact on our processing times and working to improve hand-offs and communication.</li>
                 <li className='experience-list'>Designing a process for Schwab Procurement to almost fully automate their reporting processes. I previously had fully automated reporting for TD Ameritrade’s Portfolio Project Management Team.</li>
+                <li className='experience-list'>Flew out and met with multiple team members to complete a formal analysis (metrics included) of whether combining two of our teams would be effective and desired.</li>
                 <li className='experience-list'>Designing a new client retention strategy for TDA’s education platform based on user behaviour metrics.</li>
-                <li className='experience-list'>Writing an analysis that led to a re-structuring of our sales teams operations to increase Client Facing Time ~5% weekly.</li>
+                <li className='experience-list'>Writing an analysis that led to a re-structuring of our sales teams' operations to increase Client Facing Time ~5% weekly.</li>
                 <li className='experience-list'>Organizing Practice Makes Perfect’s (PMP) first annual fundraiser, making ~$30k on an $8k budget.</li>
                 <li className='experience-list'>Starting quarterly HR and process reviews to ensure good culture and ongoing operational improvement.</li>
-                <li className='experience-list'>Process mapping every role and created metrics and targets that worked for our industry and goals.</li>
+                <li className='experience-list'>Process mapping every role and creating metrics and targets that worked for our industry and goals.</li>
                 <li className='experience-list'>Designed and created wireframes for a News and Education platform. </li>
+                <li className='experience-list'>Building this website with React.</li>
             </div>
 
         </div>

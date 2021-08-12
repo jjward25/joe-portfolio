@@ -1,7 +1,7 @@
 /************************/
 /*** Component Wraps ***/
 /************************/
-.desktop-home, .about-wrap, .services-wrap, .experience-wrap {
+.desktop-home, .about-wrap, .services-wrap, .experience-wrap, .testimonials-wrap {
     margin: 0;
     max-width: 100vw;
     max-height: 100vh;
@@ -116,26 +116,25 @@
     height: 100vh;
     display:flex;
     flex-direction: column;
-    
     margin-bottom: 5%;
 }
 
 .about-box {
     height: 100%;
-    width: 100%;
-    padding-left: 7.5%;
-    padding-right: 7.5%;
+    width: 85%; 
+    margin:auto;
 }
 
 .about-header {
     padding-top: 5%;
     padding-bottom: 5%;
     padding-right: 15%;
-    font-size: 4vh;
+    font-size: 175%;
+    font-weight: 600;
 }
 
 .about-text {
-    font-size: 1.7vh;
+    font-size: 100%;
     line-height: 1.7;
     padding-bottom: 3%;
 }
@@ -213,19 +212,19 @@
 
 .skill-buttons-left {
     width: 100%;
-    max-height: 10vh;
+    max-height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
 }
 .skill-buttons-right {
     width: 100%;
-    max-height: 10vh;
-    margin-left: -3%;
+    max-height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
 }
 #services-skill-button {
-    width: 16%;
-    max-height: 5vh;
-    height: 4vh;
-    padding-left: 5%;
-    padding-right: 4%;
+    width: 13%;
+    max-height: 100%;
 }
 
 .skill-text {
@@ -240,8 +239,7 @@
 }
 
 .skill-desc {
-    font-size: 100%;    
-    
+    font-size: 100%;
 }
 
 .services-footer {
@@ -294,20 +292,17 @@
 
 .experience-text-wrap {
     padding-left: 5%;
-    padding-top: 1%;
     max-width: 85%;
     grid-area: c;
 }
 
 .experience-text {
     font-size: 120%;
-    padding-bottom: 2%;
 }
 
 .experience-text-bold {
     font-size: 120%;
     font-weight: bold;
-    padding-bottom: 2%;
 }
 
 .experience-list {
@@ -315,27 +310,90 @@
     padding-bottom: 4%;
 }
 
+/************************/
+/*** Testimonial Content ***/
+/************************/
+
+.testimonials-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+}
+
+.carousel-wrap {
+    border-bottom: 2px solid #447A3F;
+    padding-bottom: 4%;
+    margin-bottom: 5%;
+}
+
+.carousel-title {
+    font-size: 150%;
+    font-weight: bold;
+    padding: 2.5%;
+}
+
+.carousel-root, .carousel-slider, .slider-wrapper, .slider {
+    max-height: 30vh;
+}
+
+#portfolio-img, .carousel-item {
+    max-height: 30vh;
+    height: 100%;
+    max-width: 30vw;
+    border-radius: 2%;
+}
+
+.thumbs-wrapper {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.legend {
+    max-width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0!important;
+    left: 29%!important;
+    opacity: .65!important;
+}
+
+.control-dots {
+    height: 0px;
+}
+
+.control-arrow {
+    opacity: .4!important;
+    background: #000!important;
+}
 
 /************************/
 /*** Mobile Views ***/
 /************************/
 @media (max-device-width: 787px) {
-    .desktop-home, .about-wrap, .services-wrap, .experience-wrap {
+    .desktop-home, .about-wrap, .services-wrap, .experience-wrap, .testimonials-wrap {
         display:grid;
         grid-template-columns: 100%;
         grid-template-rows: auto;
     }
+    .mobile-filler {
+        min-height: 20vh;
+    }
     .about-box{
-        padding-top: 22vh;
         display: flex;
         flex-direction: column;
     }
+    .about-header {
+        padding-top: 0;
+    }
     .home-text {
-       width: 100%;
-       max-height: 3vh;
-       padding-left: 20%;
-       padding-right: 20%;
+       width: 70%;
+       margin: auto;
        padding-bottom: 5%;
+       font-size: 120%;
     }
     .mobile-border-home {
         width: 100%;
@@ -364,18 +422,12 @@
         padding-left: 15%;
         font-size: 2.5vh;
     }
-    .about-header {
-        padding-top: 0;
-        padding-bottom: 5%;
-        padding-right: 10%;
-        font-size: 4vh;
-    }
 
     /** Service Page ***/
     .services-content, .experience-content  {
         display: flex;
         flex-direction: column; 
-        padding-top: 22vh;
+        margin:auto;
     }
 
     .skill-content, .skill-left-column, .skill-right-column {
@@ -385,26 +437,24 @@
         align-items: left;
         align-content: left;
     }
-
+    
     .skill-desc {
-        padding-bottom: 2.5%;
+        padding-bottom: 7.5%;
     }
     .services-footer {
         border-top: none;
         padding-bottom: 5%;
+        width: 85%;
+        margin: auto;
     }
     .services-footer-header {
-        padding-left: 4.5%;
-        padding-right: 4.5%;
-        font-size: 100%;
-        font-weight: bold;
+        font-size: 125%;
+        font-weight: 600;
     }
     
     .services-footer-bullet {
         padding-top: 2.5%;
-        padding-left: 4.5%;
-        padding-right: 4.5%;
-        font-size: 90%;
+        font-size: 100%;
     }
 
     .skill-section {
@@ -432,16 +482,21 @@
     .skill-left-column {
         display: flex;
         flex-direction: column;
-        padding-left: 4.5%;
-        padding-right: 4.5%;
+        width: 85%;
+        margin: auto;
     }
     
     .skill-right-column {
-        padding-right: 4.5%;
-        padding-left: 4.5%;
+        width: 85%;
+        margin: auto;
     }
-
+    
     /*** Experience Content ***/
+    .experience-content {
+        width: 85%;
+        display: flex;
+        margin: auto;
+    }
     .work-icon-wrap {
         flex-direction: row;
         height: 10%;
@@ -460,10 +515,22 @@
         align-items: center;
         justify-content: center;
         max-width: 100%;
-        padding-left: 10%;
-        padding-right: 10%;
     }
     .experience-list {
-        padding-bottom: 10%;
+        padding-bottom: 7.5%;
     }
+
+    /**testimonial content **/
+    .testimonials-content  {
+        display: flex;
+        flex-direction: column; 
+        margin-top: 20vh;
+    }
+
+    /** Carousel **/
+    .carousel-wrap {
+        border-top: 2px solid #447A3F;
+        margin-top: 5%;
+    }
+
 }

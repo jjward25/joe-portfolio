@@ -37,16 +37,18 @@ const layout = layoutGenerator({
                     <img src={biz} alt='biz' id='border-pic'/>
                 </div>
             </div></OnAtLeastTablet>
-
+            <OnMobile className='mobile-filler'> </OnMobile>
             <div className='about-box'>
                 <div className='about-header'>“A creative problem solver with a more-is-more mindset”</div>
-
-                <div className='about-text'>The Long Story: I've always been interested in taking a step back, observing, asking how, then why, then how else...  Playing devil’s advocate and whittling internal debates down with logic...</div>
-                <div className='about-text'>I graduated from Cornell University with a degree in Political Science because of my love of debate, a strong attraction to complex things, and general curiousity about the world.  I’d worked 3 years retail, 1 year wait staff and 6 months in asset valuations before I graduated. I’ve been to 6 continents and almost every state. </div>
-                <div className='about-text'>My first post-college job was a rotational program, taking me through a comprehensive improvement initiative on a national sales team, analytics on a world-class education platform, and formal project management practices.</div>
-                <div className='about-text'>My second role was to set up formal operations for a small non-profit I had volunteered with.  I led 401k enrollments, recruited new hires, set metrics and targets, and fostered continuous improvement before returning to build TD Ameritrade’s procurement analytics.  In this role I developed flexible reporting tools, led key improvement initiatives, and created ad hoc reports for our C-Suite, the SEC, House of Reps, and more.</div>
-                <div className='about-text'>These broad and varied experiences perfectly balance my logical nature, allowing me to help you create the best possible solutions for your business.</div>
+                <div className='about-text'>In general, I think breadth matters more than depth. I think, past a certain point of awareness, there is far greater value in having a variety of experiences to pull from than reading more best-in-class consulting decks and whitepapers.</div>
+                <div className='about-text'>What is this baseline?  I think Einstein sets a good bar: "If you can't explain it simply, you don't understand it well enough."</div>
+                <div className='about-text'>It's important to know where to find the best practices (ie: what do the most recognized certifications teach?), how to use the tools, and do the work.  Skills have their own baseline competencies that depend on each job, but industries, companies, teams, and problems always just need to be understood.</div>
+                <div className='about-text'>This requires good communication - that means open, honest, and detail oriented. I foster an environment of trust on my engagements, acting on behalf of every team member as I help work on solutions to your teams biggest issues and give everyone more time to focus on the things they want to be doing.</div>
+                <div className='about-text'></div>
+                <div className='about-text'></div>
             </div>
+
+            I solve problems 
 
           </div>
 

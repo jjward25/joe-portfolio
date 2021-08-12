@@ -24,7 +24,7 @@ return (
     <div className='sidebar-wrap'>
     <div className='sidebar'>
 
-        <Link to='/'><div className='sidebar-title'><img src={name} alt='Joe Ward'  title={`Joe Ward`} id='title-img'/></div></Link>
+        <Link to='/' className='sidebar-title-wrap'><div className='sidebar-title'><img src={name} alt='Joe Ward'  title={`Joe Ward`} id='title-img'/></div></Link>
         <div className='sidebar-selfie'><img src={selfie} alt='TechGear' id='main-img'/></div>
         <div className='sidebar-slogan'>Let's make things, better.</div>
 
@@ -49,7 +49,7 @@ return (
         
         <div className='sidebar-email'>Joseph.Ward@Outlook.com</div>
         <div className='skill-icons'><img src={skillbar} alt='skillbar'  title={`skillbar`} id='skillbar'/></div>
-        <div className='call-to-action'>Start with a free 30 minute consultation to see exactly how my skills and experience can work for you.</div>
+        <div className='call-to-action'>Start with a free consultation to see exactly how my skills and experience can work for you.</div>
  
     </div>
     </div>

@@ -42,12 +42,12 @@ const layout = layoutGenerator({
                         <div className='gear-border-text' id='right'>Technology</div>
                     </div>
             </OnAtLeastTablet>
-
+            <OnMobile className='mobile-filler'> </OnMobile> 
             <OnMobile className='services-footer'>
                 <div className='services-footer-header'>Every engagement starts with a 30-60 minute consultation.  This meeting serves several purposes: </div>
                 <li className='services-footer-bullet'>Formal introductions for us, your business, and your pain points.</li>
                 <li className='services-footer-bullet'>An overview of my skills and tools that may be of particular use.</li>
-                <li className='services-footer-bullet'>{'Open Discussion & Actions Items:  Go into anything we wanted to discuss more, and determine anything to be sent or scheduled after the call.'}</li>
+                <li className='services-footer-bullet'>{'Open discussion & actions items.'}</li>
             </OnMobile>
 
             <div className='skill-content'>
@@ -67,7 +67,7 @@ const layout = layoutGenerator({
 
                     <div className='skill-textbox'>
                         <div className='skill-text'>{'Strategic Planning & Best Practices Review'}</div>
-                        <div className='skill-desc'>{'Maybe you need to build out your reporting, or shore up your procurement practices.  I find best-in-class exmaples and help adapt them to your team.'}</div>
+                        <div className='skill-desc'>{'Maybe you need to build out your reporting, or shore up your procurement practices. We design a custom solution, and compare it to best practices before implementing a final solution.'}</div>
                         
                         <div className='skill-text'>{'Process Mapping & Design'}</div>
                         <div className='skill-desc'>{'Visualize what your team does every day. Every step, every tool, every point where you’re waiting on someone else.  Get everything on paper so we can find the biggest opportunities.'}</div>
@@ -103,7 +103,7 @@ const layout = layoutGenerator({
                     
                     <div className='skill-textbox'>
                         <div className='skill-text'>{'Data Collection & Visualization'}</div>
-                        <div className='skill-desc'>{'Web scraping, pulling from a local database, and displaying  the data either as an analytical tool in Tableau or Excel or as a story in any format.'}</div>
+                        <div className='skill-desc'>{'Web scraping, pulling from a local database, and displaying  the data either as an analytical tool in Tableau or Excel, or as a story in any format.'}</div>
                         <div className='skill-text'>{'Reporting & Analytics'}</div>
                         <div className='skill-desc'>{'Identifying key metrics and targets; building repeatable reporting processes, tools for ongoing data collection and data management.'}</div>
                         <div className='skill-text'>{'Task Automation'}</div>
