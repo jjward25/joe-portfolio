@@ -10,6 +10,8 @@ import schwab from '../assets/work-schwab.png';
 import tda from '../assets/work-tda.png';
 import procurementDash from '../assets/portfolio-tableau-procurement.png';
 import adeptWireframe from '../assets/portfolio-figma-adept.png';
+import whitepaper from '../assets/portfolio-whitepaper.PNG';
+import webscraper from '../assets/portfolio-webscraper.PNG';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
@@ -58,14 +60,26 @@ const layout = layoutGenerator({
                     <div className='carousel-title'>Work Samples</div>
                     {/* eslint-disable-next-line*/} 
                     <Carousel showArrows={true} showThumbs={false} showArrows={true} infiniteLoop={true} centerMode={.33} swipeable={true}>
-                        <div className='carousel-item'>
+                        {/* eslint-disable-next-line*/} 
+                        <a href='https://www.youtube.com/watch?v=j_YyXltl4Is' target='_blank'><div className='carousel-item'>
                             <img src={procurementDash} alt='tableau' id='portfolio-img'/>
                             <div className='legend'>Analytics Dashboard</div>
-                        </div>
-                        <div className='carousel-item'>
+                        </div></a>
+                        {/* eslint-disable-next-line*/} 
+                        <a href='https://imgur.com/UB8AKQB' target='_blank'><div className='carousel-item'>
                             <img src={adeptWireframe} alt='adept' id='portfolio-img'/>
                             <div className='legend'>Website Wireframe</div>
-                        </div>
+                        </div></a>
+                        {/* eslint-disable-next-line*/} 
+                        <a href='https://medium.com/cultural-commentary/strategic-resiliency-in-large-corporations-6003c35f98f6' target='_blank'><div className='carousel-item'>
+                            <img src={whitepaper} alt='adept' id='portfolio-img'/>
+                            <div className='legend'>Business Strategy</div>
+                        </div></a>
+                        {/* eslint-disable-next-line*/} 
+                        <a href='https://github.com/jjward25/python-ca_scrapers' target='_blank'><div className='carousel-item'>
+                            <img src={webscraper} alt='adept' id='portfolio-img'/>
+                            <div className='legend'>Python Webscraper</div>
+                        </div></a>
                     </Carousel>
                 </div>
 

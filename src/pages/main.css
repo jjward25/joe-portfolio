@@ -348,6 +348,7 @@
 }
 .carousel-item {
     max-height: 35vh;
+    height: 100%;
 }
 
 #portfolio-img{

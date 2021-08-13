@@ -64,7 +64,7 @@ return (
                 </div></Link>
                 <Link to='/portfolio'><div className='nav-item'>
                     <div className='gear-img'><img src={gear} alt='gear' id='gear-pic'/></div>
-                    <div className='nav-text'>{'Portfolio & Testimonials'}</div>
+                    <div className='nav-text'>{'Testimonials'}</div>
                 </div></Link>
             </div>
 
