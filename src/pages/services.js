@@ -34,14 +34,7 @@ const layout = layoutGenerator({
           <div></div>
           <div className='services-content'>
 
-            <OnAtLeastTablet className='gear-border-grid'>
-                    <div className='gear-border-box'></div>
-                    <div className='gear-border-content'>
-                        <div className='gear-border-text' id='left'>Operations</div>
-                        <img src={gear} alt='gear' id='gear-border-pic'/>
-                        <div className='gear-border-text' id='right'>Technology</div>
-                    </div>
-            </OnAtLeastTablet>
+        <div></div>
             <OnMobile className='mobile-filler'> </OnMobile> 
             <OnMobile className='services-footer'>
                 <div className='services-footer-header'>Every engagement starts with a 30-60 minute consultation.  This meeting serves several purposes: </div>

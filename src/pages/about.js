@@ -39,7 +39,7 @@ const layout = layoutGenerator({
             </div></OnAtLeastTablet>
             <OnMobile className='mobile-filler'> </OnMobile>
             <div className='about-box'>
-                <div className='about-header'>“A creative problem solver with a more-is-more mindset”</div>
+                <div className='about-header'>I use modern tools and techniques to help small businesses operate more like big ones.</div>
                 <div className='about-text'>In general, I think breadth matters more than depth. I think that past a certain point of awareness, there is far greater value in having a variety of experiences to pull from than in reading more best-in-class consulting decks and whitepapers. Not because the papers are bad, but because we can read them any time.</div>
                 <div className='about-text'>What is this baseline?  I think Einstein sets a good bar: "If you can't explain it simply, you don't understand it well enough."</div>
                 <div className='about-text'>It's important to know where to find the best practices (ie: what do the most recognized certifications teach?), how to use the tools, and do the work.  Skills have their own baseline competencies that are specific to each job, but industries, companies, teams, and problems just need to be understood.</div>
