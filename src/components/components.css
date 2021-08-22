@@ -61,7 +61,7 @@
 
     margin:auto;
     
-    font-size: 125%;
+    font-size: 130%;
     font-weight: bold;
     text-align: center;
 }
@@ -242,5 +242,8 @@
     }
     .sidebar-email {
         font-size: 100%;
+    }
+    .sidebar-slogan {
+        font-size: 115%;
     }
 }
