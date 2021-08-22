@@ -240,6 +240,7 @@
     .sidebar{
         padding-top: 6vh;
     }
-
-    
+    .sidebar-email {
+        font-size: 100%;
+    }
 }
