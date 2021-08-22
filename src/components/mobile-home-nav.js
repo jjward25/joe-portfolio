@@ -16,11 +16,6 @@ const layout = layoutGenerator({
 function MobileHomeNav() {
     return (
     <div className='home-nav'>
-        <OnAtLeastTablet><Link to='/' className='nav-link'><div className='nav-item'>
-            <div className='gear-img'><img src={gear} alt='gear' id='gear-pic'/></div>
-            <div className='nav-text'>Home</div>
-        </div></Link></OnAtLeastTablet>
-
         <Link to='/portfolio' className='nav-link'><div className='nav-item'>
             <div className='gear-img'><img src={gear} alt='gear' id='gear-pic'/></div>
             <div className='nav-text'>{'Testimonials'}</div>
