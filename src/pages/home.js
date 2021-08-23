@@ -16,6 +16,7 @@ import schwab from '../assets/work-schwab.png';
 import tda from '../assets/work-tda.png';
 import procurementDash from '../assets/portfolio-tableau-procurement.png';
 import adeptWireframe from '../assets/portfolio-figma-adept.png';
+import adeptProcessMap from '../assets/portfolio-figma-process-map.png';
 import whitepaper from '../assets/portfolio-whitepaper.PNG';
 import webscraper from '../assets/portfolio-webscraper.PNG';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -149,6 +150,10 @@ return (
                             <a href='https://medium.com/cultural-commentary/strategic-resiliency-in-large-corporations-6003c35f98f6' target='_blank'><div className='carousel-item'>
                                 <img src={whitepaper} alt='adept' id='portfolio-img'/>
                                 <div className='legend'>Business Strategy</div>
+                            </div></a>
+                            <a href='https://imgur.com/DGgdJD4' target='_blank'><div className='carousel-item'>
+                                <img src={adeptProcessMap} alt='process map' id='portfolio-img'/>
+                                <div className='legend'>{'Process Mapping & Design'}</div>
                             </div></a>
                         </Carousel>
                     </div>
