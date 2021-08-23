@@ -273,6 +273,12 @@
     width: 100%;
     max-width: 100%;
 }
+.testimonial-body{
+    padding-top: 2.5%;
+}
+.testimonial-title {
+    padding-left: 5%;
+}
 
 /************************/
 /*** Services Footer ***/

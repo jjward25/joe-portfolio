@@ -3,7 +3,9 @@ import './main.css';
 import Sidebar from '../components/sidebar';
 import { layoutGenerator } from 'react-break';
 import MobileMenu from '../components/mobile-menu';
-
+import bulb from '../assets/img-bulb.png';
+import tree from '../assets/img-tree.png';
+import biz from '../assets/img-biz.png';
 
 const layout = layoutGenerator({
     mobile: 0,
@@ -28,10 +30,17 @@ const layout = layoutGenerator({
         <OnAtLeastTablet><div></div></OnAtLeastTablet>
     
         <div className='testimonials-content'>
-
-            <div className='testimonial-wrap'></div>
-                <div className='carousel-title'>Testimonals Coming Soon :)</div>
-           </div>
+          <OnAtLeastTablet><div className='border-grid'>
+              <div className='border-box'></div>
+              <div className='border-images'>
+                  <img src={bulb} alt='bulb' id='border-pic'/>
+                  <img src={tree} alt='tree' id='border-pic'/>
+                  <img src={biz} alt='biz' id='border-pic'/>
+              </div>
+          </div></OnAtLeastTablet>
+          <div className='testimonial-body'></div>
+              <div className='testimonial-title'>Testimonals Coming Soon :)</div>
+          </div>
 
     </div>
   )};
