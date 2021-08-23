@@ -2,16 +2,6 @@ import React from 'react';
 import '../pages/main.css'
 import gear from '../assets/gear-icon.png';
 import {Link} from 'react-router-dom';
-import { layoutGenerator } from 'react-break';
-
-const layout = layoutGenerator({
-    mobile: 0,
-    phablet: 550,
-    tablet: 787,
-    desktop: 992,
-  });
-  
-  const OnAtLeastTablet = layout.isAtLeast('tablet');
 
 function MobileHomeNav() {
     return (

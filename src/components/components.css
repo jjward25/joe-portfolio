@@ -217,9 +217,11 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 2.5vh;
-        max-height: 2.5vh;
+        max-height: 4vh;
+        margin: 0;
+        min-width: 60vw;
+        margin-left:20vw;
     }
-
     .social-item {
         display: flex;
         flex-direction: column;
@@ -238,7 +240,7 @@
     }
 
     .sidebar{
-        padding-top: 6vh;
+        padding-top: 9vh;
     }
     .sidebar-email {
         font-size: 100%;

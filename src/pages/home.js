@@ -69,7 +69,17 @@ return (
             <OnAtLeastTablet>
                 <MobileHomeNav></MobileHomeNav>
             </OnAtLeastTablet>
-            
+
+            <OnMobile><div className='job-buttons'> 
+                    <OnAtLeastTablet><div className='icon-label'>Past<br></br>Employment</div></OnAtLeastTablet>
+                    <OnMobile><div className='icon-label'>Past Employment</div></OnMobile>
+                    <div className='work-icon-wrap'>    
+                        <img src={schwab} alt='schwab' id='work-icon' title='Charles Schwab'/>
+                        <img src={tda} alt='tda' id='work-icon' title='TD Ameritrade'/>
+                        <img src={pmp_logo} alt='pmp' id='work-icon' title='Practice Makes Perfect'/>
+                    </div>
+            </div></OnMobile>
+
             <div className= 'skill-grid'>
                 <OnAtLeastTablet><div className='skill-logos'>
                     <div className='skills-label'>Primary Skills</div>
@@ -77,18 +87,40 @@ return (
                     <img src={python} alt='python' id='services-skill-button' title='Python'/>
                     <img src={sql} alt='sql' id='services-skill-button' title='SQL'/>
                 </div></OnAtLeastTablet>
-                <div className='skill-text'>
+                <div className='skill-main'>
                     <div className='skill-header'>Sample Technical Projects</div>
                     <li className='skill-list'>Creating an update-able reporting environment using existing extracts and free tools only.</li>
                     <li className='skill-list'>Pulling data via python webscrapers or public APIs; combining with industry research for ad hoc analyses.</li>
                     <li className='skill-list'>One-time internal deep-dives; measuring effiency, process times, wait times, whatever's available to dig for opportunities.</li>
-                </div>
-                <OnMobile><div className='skill-logos'>
-                    <div className='skills-label'>Primary Skills</div>
-                    <img src={tableau} alt='tableau' id='services-skill-button' title='Tableau'/>
-                    <img src={python} alt='python' id='services-skill-button' title='Python'/>
-                    <img src={sql} alt='sql' id='services-skill-button' title='SQL'/>
-                </div></OnMobile>
+                
+                    <OnMobile><div className='skill-logos'>
+                        <div className='skills-label'>Primary Skills</div>
+                        <img src={tableau} alt='tableau' id='services-skill-button' title='Tableau'/>
+                        <img src={python} alt='python' id='services-skill-button' title='Python'/>
+                        <img src={sql} alt='sql' id='services-skill-button' title='SQL'/>
+                    </div></OnMobile>
+                    <div className='carousel-wrap'>
+                            {/* eslint-disable-next-line*/} 
+                            <Carousel showArrows={true} showThumbs={false} showArrows={true} infiniteLoop={true} centerMode={.33} swipeable={true}>
+                                {/* eslint-disable-next-line*/} 
+                                <a href='https://www.youtube.com/watch?v=j_YyXltl4Is' target='_blank'><div className='carousel-item'>
+                                    <img src={procurementDash} alt='tableau' id='portfolio-img'/>
+                                    <div className='legend'>Analytics Dashboard</div>
+                                </div></a>
+                                {/* eslint-disable-next-line*/} 
+                                <a href='https://imgur.com/UB8AKQB' target='_blank'><div className='carousel-item'>
+                                    <img src={adeptWireframe} alt='adept' id='portfolio-img'/>
+                                    <div className='legend'>Website Wireframe</div>
+                                </div></a>
+                                {/* eslint-disable-next-line*/} 
+                                <a href='https://github.com/jjward25/python-ca_scrapers' target='_blank'><div className='carousel-item'>
+                                    <img src={webscraper} alt='adept' id='portfolio-img'/>
+                                    <div className='legend'>Python Webscraper</div>
+                                </div></a>
+                            </Carousel>
+                        </div>
+                    </div>
+
                 <OnAtLeastTablet><div className='job-buttons'> 
                     <div className='work-icon-wrap'>
                         <div className='icon-label'>Past<br></br>Employment</div>
@@ -103,55 +135,31 @@ return (
                     <img src={sixsig} alt='six-sigma' id='services-skill-button' title='Lean/Six-Sigma'/>
                     <img src={pmp_pmi} alt='pmp' id='services-skill-button' title='PMP Project Managemnt Professional'/>
                 </div></OnAtLeastTablet>
-                <div className='skill-text'>
+                <div className='skill-main'>
                     <div className='skill-header'>Sample Consulting Projects</div>
                     <li className='skill-list'>Building out new procurement channels for ~$17m worth of annual spend in a cross-functional project affecting all 10,000 employees at TD Ameritrade.</li>
                     <li className='skill-list'>Conducted sensitive interviews to determine if merging two teams was workable and in everyone's best interest.</li>
                     <li className='skill-list'>Strategic Reviews: Individual and team interviews; process mapping; rough solutions design; research industry best practices; review and final design; implementation.</li>
                     <li className='skill-list'>Sitting down with team members, mapping out daily processes and finding and implementing efficiency-focused solutions (task automation or re-design) in a transparent and inclusive way.</li>
-                </div>
-                <OnMobile><div className='skill-logos'>
-                    <div className='skills-label'>Primary Skills</div>
-                    <img src={sixsig} alt='six-sigma' id='services-skill-button' title='Lean/Six-Sigma'/>
-                    <img src={pmp_pmi} alt='pmp' id='services-skill-button' title='PMP Project Managemnt Professional'/>
-                </div></OnMobile>
-            </div>
-
-            <OnMobile><div className='job-buttons'> 
-                    <div className='icon-label'>Past<br></br>Employment</div>
-                    <div className='work-icon-wrap'>    
-                        <img src={schwab} alt='schwab' id='work-icon' title='Charles Schwab'/>
-                        <img src={tda} alt='tda' id='work-icon' title='TD Ameritrade'/>
-                        <img src={pmp_logo} alt='pmp' id='work-icon' title='Practice Makes Perfect'/>
+                    
+                    <OnMobile><div className='skill-logos'>
+                        <div className='skills-label'>Primary Skills</div>
+                        <img src={sixsig} alt='six-sigma' id='services-skill-button' title='Lean/Six-Sigma'/>
+                        <img src={pmp_pmi} alt='pmp' id='services-skill-button' title='PMP Project Managemnt Professional'/>
+                     </div></OnMobile>
+                    
+                    <div className='carousel-wrap'>
+                        {/* eslint-disable-next-line*/} 
+                        <Carousel showArrows={true} showThumbs={false} showArrows={true} infiniteLoop={true} centerMode={.33} swipeable={true}>
+                            {/* eslint-disable-next-line*/} 
+                            <a href='https://medium.com/cultural-commentary/strategic-resiliency-in-large-corporations-6003c35f98f6' target='_blank'><div className='carousel-item'>
+                                <img src={whitepaper} alt='adept' id='portfolio-img'/>
+                                <div className='legend'>Business Strategy</div>
+                            </div></a>
+                        </Carousel>
                     </div>
-                </div></OnMobile>
-
-            <div className='carousel-wrap'>
-                    <div className='carousel-title'>Personal Projects</div>
-                    {/* eslint-disable-next-line*/} 
-                    <Carousel showArrows={true} showThumbs={false} showArrows={true} infiniteLoop={true} centerMode={.33} swipeable={true}>
-                        {/* eslint-disable-next-line*/} 
-                        <a href='https://www.youtube.com/watch?v=j_YyXltl4Is' target='_blank'><div className='carousel-item'>
-                            <img src={procurementDash} alt='tableau' id='portfolio-img'/>
-                            <div className='legend'>Analytics Dashboard</div>
-                        </div></a>
-                        {/* eslint-disable-next-line*/} 
-                        <a href='https://imgur.com/UB8AKQB' target='_blank'><div className='carousel-item'>
-                            <img src={adeptWireframe} alt='adept' id='portfolio-img'/>
-                            <div className='legend'>Website Wireframe</div>
-                        </div></a>
-                        {/* eslint-disable-next-line*/} 
-                        <a href='https://medium.com/cultural-commentary/strategic-resiliency-in-large-corporations-6003c35f98f6' target='_blank'><div className='carousel-item'>
-                            <img src={whitepaper} alt='adept' id='portfolio-img'/>
-                            <div className='legend'>Business Strategy</div>
-                        </div></a>
-                        {/* eslint-disable-next-line*/} 
-                        <a href='https://github.com/jjward25/python-ca_scrapers' target='_blank'><div className='carousel-item'>
-                            <img src={webscraper} alt='adept' id='portfolio-img'/>
-                            <div className='legend'>Python Webscraper</div>
-                        </div></a>
-                    </Carousel>
                 </div>
+            </div>
 
         </div>
 
