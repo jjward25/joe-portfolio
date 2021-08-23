@@ -96,7 +96,7 @@ return (
                     </div></OnMobile>
                     <div className='carousel-wrap'>
                             {/* eslint-disable-next-line*/} 
-                            <Carousel showArrows={true} showThumbs={false} showArrows={true} infiniteLoop={true} centerMode={.33} swipeable={true}>
+                            <Carousel className='carousel-inner-wrap' showArrows={true} showThumbs={false} showArrows={true} infiniteLoop={true} centerMode={.33} swipeable={true}>
                                 {/* eslint-disable-next-line*/} 
                                 <a href='https://www.youtube.com/watch?v=j_YyXltl4Is' target='_blank'><div className='carousel-item'>
                                     <img src={procurementDash} alt='tableau' id='portfolio-img'/>
@@ -145,7 +145,7 @@ return (
                     
                     <div className='carousel-wrap'>
                         {/* eslint-disable-next-line*/} 
-                        <Carousel showArrows={true} showThumbs={false} showArrows={true} infiniteLoop={true} centerMode={.33} swipeable={true}>
+                        <Carousel  className='carousel-inner-wrap' showArrows={true} showThumbs={false} showArrows={true} infiniteLoop={true} centerMode={.33} swipeable={true}>
                             {/* eslint-disable-next-line*/} 
                             <a href='https://medium.com/cultural-commentary/strategic-resiliency-in-large-corporations-6003c35f98f6' target='_blank'><div className='carousel-item'>
                                 <img src={whitepaper} alt='adept' id='portfolio-img'/>

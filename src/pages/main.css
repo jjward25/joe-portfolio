@@ -209,10 +209,14 @@
     align-items: center;
     justify-content: center;
 
-    max-width: 100%;
+    width: 100%;
     margin:0 auto;
     margin-top: 1.5%;
     margin-left: 0;
+}
+.carousel-inner-wrap {
+    width: 100%;
+    max-width: 800px;
 }
 .carousel-title {
     font-size: 125%;
@@ -225,7 +229,7 @@
     width: 100%;
 }
 .slider-wrapper {
-    border: 1px solid #91B2C7;
+    
     border-radius: 8px;
 }
 .carousel-item {
@@ -251,6 +255,7 @@
     justify-content: center !important;
     align-items: center !important;    
     opacity: .65!important;
+    width: 100% !important;
     max-width: 30vw;
     margin-left: 0 !important;
     left:auto !important;
