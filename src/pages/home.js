@@ -40,13 +40,7 @@ return (
         <OnAtLeastTablet><Sidebar/></OnAtLeastTablet>
         <OnMobile><Sidebar2/></OnMobile>
         
-        <OnMobile>
-            <div className='mobile-border-home'>
-                <img src={bulb} alt='bulb' id='border-pic'/>
-                <img src={tree} alt='tree' id='border-pic'/>
-                <img src={biz} alt='biz' id='border-pic'/>
-            </div>
-        </OnMobile>
+      
         <div></div>
         <div className='home-content'>
 

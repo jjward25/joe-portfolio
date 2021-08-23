@@ -64,7 +64,7 @@
     margin: auto;
 }
 .home-text {
-    width: 95%;
+    width: 90%;
     max-width: 100%;
     font-size: 1.5vh;
     font-weight: 600;
@@ -389,9 +389,10 @@
         padding-bottom: 5%;
         padding-top: 5%;
         border-bottom: 2px solid #91B2C7;
+        border-top: 2px solid #91B2C7;
         justify-content: flex-start;
         margin: 0 auto;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
         width: 100%;
     }
     .work-icon-wrap {
@@ -455,6 +456,7 @@
     /** Carousel **/
     .carousel-wrap {
         margin-top: 5%;
+        margin-bottom: 7.5%;
     }
     .carousel-item {
         max-height: 20vh;
