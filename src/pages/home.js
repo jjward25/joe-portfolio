@@ -16,7 +16,7 @@ import schwab from '../assets/work-schwab.png';
 import tda from '../assets/work-tda.png';
 import procurementDash from '../assets/portfolio-tableau-procurement.png';
 import adeptWireframe from '../assets/portfolio-figma-adept.png';
-import adeptProcessMap from '../assets/portfolio-figma-process-map.png';
+import adeptProcessMap from '../assets/portfolio-figma-process-map.PNG';
 import whitepaper from '../assets/portfolio-whitepaper.PNG';
 import webscraper from '../assets/portfolio-webscraper.PNG';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -103,7 +103,7 @@ return (
                                     <div className='legend'>Analytics Dashboard</div>
                                 </div></a>
                                 {/* eslint-disable-next-line*/} 
-                                <a href='https://imgur.com/UB8AKQB' target='_blank'><div className='carousel-item'>
+                                <a href='https://i.imgur.com/UB8AKQB.png' target='_blank'><div className='carousel-item'>
                                     <img src={adeptWireframe} alt='adept' id='portfolio-img'/>
                                     <div className='legend'>Website Wireframe</div>
                                 </div></a>
@@ -151,7 +151,7 @@ return (
                                 <img src={whitepaper} alt='adept' id='portfolio-img'/>
                                 <div className='legend'>Business Strategy</div>
                             </div></a>
-                            <a href='https://imgur.com/DGgdJD4' target='_blank'><div className='carousel-item'>
+                            <a href='https://i.imgur.com/DGgdJD4.png' target='_blank'><div className='carousel-item'>
                                 <img src={adeptProcessMap} alt='process map' id='portfolio-img'/>
                                 <div className='legend'>{'Process Mapping & Design'}</div>
                             </div></a>
