@@ -151,6 +151,7 @@ return (
                                 <img src={whitepaper} alt='adept' id='portfolio-img'/>
                                 <div className='legend'>Business Strategy</div>
                             </div></a>
+                            {/* eslint-disable-next-line*/} 
                             <a href='https://i.imgur.com/DGgdJD4.png' target='_blank'><div className='carousel-item'>
                                 <img src={adeptProcessMap} alt='process map' id='portfolio-img'/>
                                 <div className='legend'>{'Process Mapping & Design'}</div>
