@@ -444,10 +444,13 @@
     /** Testimonials **/
     .testimonials-content{
         padding-top: 20vh;
-        padding-left: 10%;
+        padding-left: 0%;
         padding-right: 10%;
     }
     /** About **/
+    .about-content {
+        padding-left: 0px;
+    }
     .about-box{
         display: flex;
         flex-direction: column;
