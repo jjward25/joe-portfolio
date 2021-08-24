@@ -70,9 +70,7 @@
     height:15vh;
     max-width: 65%;
     width: 65%;
-    margin:0 auto;
-    margin-top: 2.5vh;
-    margin-bottom: 2.5vh;
+    margin:auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -115,7 +113,6 @@
     max-width: 65%;  
     max-height: 5vh;
     height: 5vh;  
-    margin-bottom: 2.5vh;
     
     display: flex;
     align-items: center;
