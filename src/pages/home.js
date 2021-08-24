@@ -41,8 +41,6 @@ return (
         <OnAtLeastTablet><Sidebar/></OnAtLeastTablet>
         <OnMobile><Sidebar2/></OnMobile>
         
-      
-        <div></div>
         <div className='home-content'>
 
             <OnAtLeastTablet className='border-grid'>
