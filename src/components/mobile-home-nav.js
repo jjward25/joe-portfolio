@@ -13,7 +13,7 @@ function MobileHomeNav() {
 
         <Link to='/about' className='nav-link'><div className='nav-item'>
             <div className='gear-img'><img src={gear} alt='gear' id='gear-pic'/></div>
-            <div className='nav-text'>About Joe</div>
+            <div className='nav-text'>About</div>
         </div></Link>
     </div>
     )}
