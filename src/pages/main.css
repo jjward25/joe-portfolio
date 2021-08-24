@@ -331,7 +331,6 @@
     font-size: 100%;
     line-height: 1.7;
     padding-bottom: 3%;
-    padding-left: 2.5%;
     max-width: 70%;
 }
 
@@ -366,6 +365,9 @@
     .nav-text{
         padding-left: 15%;
         font-size: 2.5vh;
+    }
+    .home-text-wrap{
+        padding-bottom: 5%;
     }
     /** ## Skill Sample services **/
     .skill-grid{
@@ -486,9 +488,12 @@
 
     /** Carousel **/
     .carousel-wrap {
+        margin: 0 auto;
         margin-top: 5%;
         margin-bottom: 7.5%;
-        width: 100%;
+        width: 95%;
+        padding-bottom: 5%;
+        border-bottom: 2px solid #91B2C7;
     }
     .carousel-item {
         max-height: 20vh;

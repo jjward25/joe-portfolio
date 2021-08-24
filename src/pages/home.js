@@ -81,11 +81,13 @@ return (
                     <img src={sql} alt='sql' id='services-skill-button' title='SQL'/>
                 </div></OnAtLeastTablet>
                 <div className='skill-main'>
-                    <div className='skill-header'>Sample Technical Projects</div>
-                    <li className='skill-list'>Creating an update-able reporting environment using existing extracts and free tools only.</li>
-                    <li className='skill-list'>Pulling data via python webscrapers or public APIs; combining with industry research for ad hoc analyses.</li>
-                    <li className='skill-list'>One-time internal deep-dives; measuring effiency, process times, wait times, whatever's available to dig for opportunities.</li>
-                
+                    <div className='home-text-wrap'>
+                        <div className='skill-header'>Sample Technical Projects</div>
+                        <li className='skill-list'>Creating an update-able reporting environment using existing extracts and free tools only.</li>
+                        <li className='skill-list'>Pulling data via python webscrapers or public APIs; combining with industry research for ad hoc analyses.</li>
+                        <li className='skill-list'>One-time internal deep-dives; measuring effiency, process times, wait times, whatever's available to dig for opportunities.</li>
+                    </div>
+
                     <OnMobile><div className='skill-logos'>
                         <div className='skills-label'>Primary Skills</div>
                         <img src={tableau} alt='tableau' id='services-skill-button' title='Tableau'/>
@@ -129,12 +131,14 @@ return (
                     <img src={pmp_pmi} alt='pmp' id='services-skill-button' title='PMP Project Managemnt Professional'/>
                 </div></OnAtLeastTablet>
                 <div className='skill-main'>
-                    <div className='skill-header'>Sample Consulting Projects</div>
-                    <li className='skill-list'>Building out new procurement channels for ~$17m worth of annual spend in a cross-functional project affecting all 10,000 employees at TD Ameritrade.</li>
-                    <li className='skill-list'>Conducted sensitive interviews to determine if merging two teams was workable and in everyone's best interest.</li>
-                    <li className='skill-list'>Strategic Reviews: Individual and team interviews; process mapping; rough solutions design; research industry best practices; review and final design; implementation.</li>
-                    <li className='skill-list'>Sitting down with team members, mapping out daily processes and finding and implementing efficiency-focused solutions (task automation or re-design) in a transparent and inclusive way.</li>
-                    
+                    <div className='home-text-wrap'>
+                        <div className='skill-header'>Sample Consulting Projects</div>
+                        <li className='skill-list'>Building out new procurement channels for ~$17m worth of annual spend in a cross-functional project affecting all 10,000 employees at TD Ameritrade.</li>
+                        <li className='skill-list'>Conducted sensitive interviews to determine if merging two teams was workable and in everyone's best interest.</li>
+                        <li className='skill-list'>Strategic Reviews: Individual and team interviews; process mapping; rough solutions design; research industry best practices; review and final design; implementation.</li>
+                        <li className='skill-list'>Sitting down with team members, mapping out daily processes and finding and implementing efficiency-focused solutions (task automation or re-design) in a transparent and inclusive way.</li>
+                    </div>
+
                     <OnMobile><div className='skill-logos'>
                         <div className='skills-label'>Primary Skills</div>
                         <img src={sixsig} alt='six-sigma' id='services-skill-button' title='Lean/Six-Sigma'/>
