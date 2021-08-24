@@ -403,8 +403,9 @@
         padding-top: 2%;
         width: 25%;
         height: 70%;
-        max-height: 8vh;
-        min-height: 8vh;
+        max-height: 9vh;
+        min-height: 8.5vh;
+        margin: auto;
     }
     .skill-header {
         padding-bottom: 1.25%;
