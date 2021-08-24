@@ -86,6 +86,9 @@
     align-items: flex-start;
     justify-content:space-around;
 }
+.nav-link{
+    width: 45%;
+}
 .nav-item{
     display: grid;
     grid-template-columns: 15% 75%;
