@@ -275,6 +275,7 @@
     flex-direction: column;
     width: 100%;
     max-width: 100%;
+    padding-left: 25vw;
 }
 .testimonial-body{
     padding-top: 2.5%;
@@ -312,6 +313,7 @@
     display:flex;
     flex-direction: column;
     margin-bottom: 5%;
+    padding-left: 25vw;
 }
 .about-box {
     height: 100%;
