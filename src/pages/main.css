@@ -88,6 +88,18 @@
     align-items: center;
     justify-content:center;
 }
+.nav-home{
+    width: 45%;    
+
+}
+.nav-button {
+    max-width: 100%;
+    margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
 .nav-link{
     width: 100%;
     display: flex;
@@ -303,8 +315,6 @@
 /************************/
 .about-content {
     width: 100%;
-    max-height: 100vh;
-    height: 100vh;
     display:flex;
     flex-direction: column;
     margin-bottom: 5%;
@@ -334,7 +344,7 @@
 /*** Mobile Views ***/
 /************************/
 @media (max-device-width: 787px) {
-    .desktop-home, .about-wrap, .services-wrap, .experience-wrap, .testimonials-wrap {
+    .desktop-home, .about-wrap, .testimonials-wrap {
         display:grid;
         grid-template-columns: 100%;
         grid-template-rows: auto;
@@ -350,19 +360,20 @@
         height: 7vh;
         min-height: 7vh;
         margin: 0;
-        background-color: #65B18C;
-        border-bottom: 1px solid #233121;
+        background-color: #91B2C7;
+        border-bottom: 1px solid #08314B;
         padding-left: 0%;
         padding-right: 0%;
     }
+    /** mobile header nav **/
     .nav-link{
-        background-color: #65B18C;
+        background-color: #91B2C7;
         width: 100%;
         border: none;
     }
     .nav-text{
         font-size: 115%;
-        color: #233121;
+        color: #08314B;
     }
     .home-text-wrap{
         padding-bottom: 5%;
@@ -374,6 +385,7 @@
         width: 95%;
         margin: 0 auto;
         padding-left: 0px;
+        padding-bottom: 10%;
     }
     .skill-logos{
         margin-top: 5%;
@@ -438,11 +450,11 @@
     }
     /** Mobile Filler **/
     .mobile-filler {
-        min-height: 20vh;
+        min-height: 17vh;
     }
     /** Testimonials **/
     .testimonials-content{
-        padding-top: 20vh;
+        padding-top: 17vh;
         padding-left: 0%;
         padding-right: 10%;
     }
@@ -453,6 +465,7 @@
     .about-box{
         display: flex;
         flex-direction: column;
+        padding-bottom: 5%;
     }
     .about-header {
         padding-top: 0;

@@ -14,6 +14,8 @@ import python from '../assets/img-skill-python.png';
 import pmp_logo from '../assets/work-pmp.png';
 import schwab from '../assets/work-schwab.png';
 import tda from '../assets/work-tda.png';
+import about from '../assets/button-about.png';
+import testimonials from '../assets/button-testimonials.png';
 import procurementDash from '../assets/portfolio-tableau-procurement.png';
 import adeptWireframe from '../assets/portfolio-figma-adept.png';
 import adeptProcessMap from '../assets/portfolio-figma-process-map.PNG';
@@ -22,6 +24,8 @@ import webscraper from '../assets/portfolio-webscraper.PNG';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import MobileHomeNav from '../components/mobile-home-nav';
+import {Link} from 'react-router-dom';
+
 
 const layout = layoutGenerator({
   mobile: 0,
@@ -59,9 +63,10 @@ return (
                 </div>
             </OnAtLeastTablet>
 
-            <OnAtLeastTablet>
-                <MobileHomeNav></MobileHomeNav>
-            </OnAtLeastTablet>
+           <div className='home-nav'>
+                <Link to='/about' className='nav-home'><img src={about} alt='About' className='nav-button'/></Link>
+                <Link to='/portfolio' className='nav-home'><img src={testimonials} alt='Testimonials' className='nav-button'/></Link>
+           </div>
 
             <OnMobile><div className='job-buttons'> 
                     <OnAtLeastTablet><div className='icon-label'>Past<br></br>Employment</div></OnAtLeastTablet>
@@ -133,10 +138,10 @@ return (
                 <div className='skill-main'>
                     <div className='home-text-wrap'>
                         <div className='skill-header'>Sample Consulting Projects</div>
-                        <li className='skill-list'>Building out new procurement channels for ~$17m worth of annual spend in a cross-functional project affecting all 10,000 employees at TD Ameritrade.</li>
-                        <li className='skill-list'>Conducted sensitive interviews to determine if merging two teams was workable and in everyone's best interest.</li>
-                        <li className='skill-list'>Strategic Reviews: Individual and team interviews; process mapping; rough solutions design; research industry best practices; review and final design; implementation.</li>
                         <li className='skill-list'>Sitting down with team members, mapping out daily processes and finding and implementing efficiency-focused solutions (task automation or re-design) in a transparent and inclusive way.</li>
+                        <li className='skill-list'>Conducted sensitive interviews to determine if merging two teams was workable and in everyone's best interest.</li>
+                        <li className='skill-list'>Building out new procurement channels for ~$17m worth of annual spend in a cross-functional project affecting company-wide policy at TD Ameritrade.</li>
+                        <li className='skill-list'>{'Strategic Reviews: Individual and team interviews > process mapping > rough solutions design > research industry best practices > review and final design > implementation.'}</li>                        
                     </div>
 
                     <OnMobile><div className='skill-logos'>

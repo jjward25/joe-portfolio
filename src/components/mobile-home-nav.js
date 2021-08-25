@@ -1,6 +1,5 @@
 import React from 'react'; 
 import '../pages/main.css'
-import gear from '../assets/gear-icon.png';
 import {Link} from 'react-router-dom';
 
 function MobileHomeNav() {
