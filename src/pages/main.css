@@ -77,37 +77,30 @@
 /************************/
 /*** Homepage Nav Buttons ***/
 /************************/
-.home-nav {
-    display: flex;
+.home-nav {    
     margin: 0 auto;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
+    padding: 2.5%;
+    padding-left: 30%;
+    padding-right: 30%;
     max-height: 100%;
-    align-items: flex-start;
-    justify-content:space-around;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
 .nav-link{
-    width: 45%;
-}
-.nav-item{
-    display: grid;
-    grid-template-columns: 15% 75%;
-    grid-template-rows: auto;
-    align-items: center;
-}
-.gear-img {
     width: 100%;
-    max-width: 10vh;
     display: flex;
-    justify-content: center;
-    align-items: center;  
+    align-items: center;
+    justify-content:center;
+    background-color: #3D6A88;
+    border: 1px solid white;
 }
-#gear-pic {
-    width: 100%;
-}
+
 .nav-text {
-    font-size: 2.5vh;
-    padding-left: 3%;
+    font-size: 150%;
+    color: white;
+    font-weight: 4  00;
 }
 
 /************************/
@@ -353,20 +346,23 @@
     .home-nav{
         position:fixed;
         max-width: 100%;
-        width: 100%;
         z-index: 2;
-        display: flex;
-        justify-content: center;
-        align-content: center;
         height: 7vh;
         min-height: 7vh;
-        margin: 0 auto;
-        background-color: white;
-        border-bottom: 1px solid #447A3F;
+        margin: 0;
+        background-color: #65B18C;
+        border-bottom: 1px solid #233121;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .nav-link{
+        background-color: #65B18C;
+        width: 100%;
+        border: none;
     }
     .nav-text{
-        padding-left: 15%;
-        font-size: 2.5vh;
+        font-size: 115%;
+        color: #233121;
     }
     .home-text-wrap{
         padding-bottom: 5%;
