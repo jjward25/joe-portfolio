@@ -217,8 +217,7 @@
     margin-left: 0;
 }
 .carousel-inner-wrap {
-    width: 100%;
-    max-width: 800px;
+    width: 100%;    
 }
 .carousel-title {
     font-size: 125%;

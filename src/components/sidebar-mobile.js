@@ -26,7 +26,7 @@ return (
 
         <Link to='/' className='sidebar-title-wrap'><div className='sidebar-title'><img src={name} alt='Joe Ward'  title={`Joe Ward`} id='title-img'/></div></Link>
         <div className='sidebar-selfie'><img src={selfie} alt='TechGear' id='main-img'/></div>
-        <div className='sidebar-slogan'>Let's make things, better.</div>
+        <div className='sidebar-email'>Joseph.Ward@Outlook.com</div>
 
         <div className='social-section'>
             {/* eslint-disable-next-line*/} 
@@ -45,10 +45,9 @@ return (
                 <OnAtLeastTablet className='social-title'>Medium</OnAtLeastTablet>
             </div></a>
         </div>
-
         
-        <div className='sidebar-email'>Joseph.Ward@Outlook.com</div>
         <div className='skill-icons'><img src={skillbar} alt='skillbar'  title={`skillbar`} id='skillbar'/></div>
+        <div className='sidebar-slogan'>Let's make things, better.</div>
         <div className='call-to-action'>Start with a free consultation to see exactly how my skills and experience can work for you.</div>
  
     </div>
