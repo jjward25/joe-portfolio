@@ -162,7 +162,7 @@
     justify-content: center;  
     padding-left: 2.5%;
     padding-right: 2.5%;
-    background-color: #fff;
+    background-color: #65B18C;
 }
 #mobile-button {
     width: 100%;
@@ -181,13 +181,14 @@
     position: relative;
 }
 .mobile-border-box {
-    border-bottom: 2px solid #447A3F;
+    border-bottom: 2px solid #233121;
     background-color: #fff;
+    background-color: #65B18C;
 }
 .mobile-border-images {
     background-color: #fff;
     border-radius: 100%;
-    border: 2px solid #447A3F;
+    border: 2px solid #233121;
     display: flex;
     align-items: center;
     justify-content: center;
