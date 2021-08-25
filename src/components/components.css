@@ -209,7 +209,7 @@
         padding-top: 7vh;
     }
     .sidebar-email{
-        font-size: 115%;
+        font-size: 110%;
     }
     .social-section{
         display: grid;
@@ -236,6 +236,6 @@
         width: 100%;        
     }
     .sidebar-slogan {
-        font-size: 115%;
+        font-size: 110%;
     }
 }
