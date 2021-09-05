@@ -423,9 +423,11 @@
         padding-bottom: 5%;
     }
     #work-icon {
-        padding: 1%;
         padding-top: 0;
+        margin-top: 0;
         width: 20%;
+        border: 1px solid black;
+        border-radius: 15px;
     }
     .icon-label{
         text-align: left;
