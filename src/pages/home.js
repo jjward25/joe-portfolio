@@ -54,14 +54,14 @@ return (
             </OnAtLeastTablet>
             
             <OnAtLeastTablet className='home-text-wrap'> 
-                <div className='home-text'>Do you need help maximizing your data? A one-off strategic analysis, process review, or task automation? 
-                These are some of the things I can help with as a consultant and experienced project manager.
-                Working as a team, we will identify, prioritize, and implement creative and custom solutions to your team's biggest problems.
+                <div className='home-text'>
+                    <p className='home-text-block'>Do you need help maximizing your data? Setting up meaningful, recurring reporting? Maybe you're looking for task automation, process reviews, or a one-off strategic analysis? </p>
+                    <p className='home-text-block'>These are some of the things I can help with as a consultant and experienced project manager.  Working as a team, we will identify, prioritize, and implement creative and custom solutions to your team's biggest problems. </p>
                 </div>
             </OnAtLeastTablet>
 
             <OnMobile><div className='job-buttons'> 
-                    <div className='skill-header'>Past Employment</div>
+                    <div className='icon-header'>Past Employment</div>
                     <div className='work-icon-wrap'>    
                         <img src={schwab} alt='schwab' id='work-icon' title='Charles Schwab'/>
                         <img src={tda} alt='tda' id='work-icon' title='TD Ameritrade'/>
@@ -93,15 +93,17 @@ return (
 
                     <div className='home-text-wrap'>
                         <div className='skill-header'>Sample Technical Projects</div>
-                        <li className='skill-list'>Creating an update-able reporting environment using existing extracts and free tools only.</li>
+                        <li className='skill-list'>Creating an update-able reporting environment using available data and free tools.</li>
                         <li className='skill-list'>Pulling data via python webscrapers or public APIs; combining with industry research for ad hoc analyses.</li>
                         <li className='skill-list'>One-time internal deep-dives; measuring effiency, process times, wait times, whatever's available to dig for opportunities.</li>
                     </div>
                     <OnMobile><div className='skill-logos'>
-                        <div className='skill-header'>Sample Skills</div>
-                        <img src={tableau} alt='tableau' id='services-skill-button' title='Tableau'/>
-                        <img src={python} alt='python' id='services-skill-button' title='Python'/>
-                        <img src={sql} alt='sql' id='services-skill-button' title='SQL'/>
+                        <div className='skill-header'>{'Skills & Certs'}</div>
+                        <div className='skill-icon-wrap'>
+                            <img src={tableau} alt='tableau' id='services-skill-button' title='Tableau'/>
+                            <img src={python} alt='python' id='services-skill-button' title='Python'/>
+                            <img src={sql} alt='sql' id='services-skill-button' title='SQL'/>
+                        </div>
                     </div></OnMobile>
                     <div className='carousel-wrap'>
                         {/* eslint-disable-next-line*/} 
@@ -132,9 +134,11 @@ return (
                         <li className='skill-list'>{'Strategic Reviews: Individual and team interviews > process mapping > rough solutions design > research industry best practices > review and final design > implementation.'}</li>                        
                     </div>
                     <OnMobile><div className='skill-logos'>
-                        <div className='skill-header'>Sample Skills</div>
-                        <img src={sixsig} alt='six-sigma' id='services-skill-button' title='Lean/Six-Sigma'/>
-                        <img src={pmp_pmi} alt='pmp' id='services-skill-button' title='PMP Project Managemnt Professional'/>
+                        <div className='skill-header'>{'Skills & Certs'}</div>
+                        <div className='skill-icon-wrap'>
+                            <img src={sixsig} alt='six-sigma' id='services-skill-button' title='Lean/Six-Sigma'/>
+                            <img src={pmp_pmi} alt='pmp' id='services-skill-button' title='PMP Project Managemnt Professional'/>
+                        </div>
                      </div></OnMobile>
                     <div className='carousel-wrap'>
                         {/* eslint-disable-next-line*/} 

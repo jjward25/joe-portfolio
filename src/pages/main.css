@@ -64,7 +64,7 @@
 .home-text {
     width: 90%;
     max-width: 100%;
-    font-size: 1.5vh;
+    font-size: 2vh;
     font-weight: 600;
     padding: 1%;
     margin-top:2.5%;
@@ -72,8 +72,16 @@
     margin-right:auto;
     border:2.5px solid #447A3F;
     border-radius: 8px;
+    background-color:rgb(252, 244, 236);
 }
-
+.home-text-block{
+    font-size: 100%;
+    font-weight: 500;
+    padding: 2.5%;
+    padding-top: 1.25%;
+    padding-bottom: 1.25%;
+    margin: 0 auto;
+}
 /************************/
 /*** Home Content Wrap ***/
 /************************/
@@ -130,15 +138,19 @@
     display: flex;
     flex-direction: column;
     margin: 0;
-    width: 12%;
+    width: 30%;
     text-align: center;
+}
+.skill-logos{
+    display: flex;
+    flex-direction: column;
 }
 .skill-icon-wrap{
     margin-top: 0;
 }
 #services-skill-button{
     padding-top: 10%;
-    width: 70%;
+    width: 60%;
     min-height: 6vh;
     max-height: 9vh;
     margin: 0 auto;
@@ -171,6 +183,7 @@
 .job-buttons{
     grid-area: c;
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
     justify-content: center;
 }
@@ -180,7 +193,7 @@
 }
 #work-icon {
     padding-top: 10%;
-    width: 70%;
+    width: 60%;
     min-height: 6vh;
     max-height: 9vh;
     margin: 0 auto;
@@ -346,6 +359,7 @@
         margin: 0 auto;
         padding-left: 0px;
         padding-bottom: 10%;
+        padding-top: 0;
     }
     .skill-logos{
         margin-top: 5%;
@@ -353,8 +367,8 @@
         display: flex;
         align-content: center;  
         justify-content: space-around;
-        border-bottom: 2px solid #91B2C7;
-        border-top: 2px solid #91B2C7;
+        border-bottom: 2px solid #447A3F;
+        border-top: 2px solid #447A3F;
     }
     .skill-main{
         padding-left: 0px;
@@ -370,7 +384,7 @@
     #services-skill-button{
         padding-bottom: 5%;
         padding-top: 2%;
-        width: 25%;
+        width: 20%;
         height: 70%;
         max-height: 9vh;
         min-height: 8.5vh;
@@ -383,16 +397,18 @@
     /** Job Buttons **/
     .job-buttons{
         display: flex;
-        flex-direction: column;
         padding-bottom: 5%;
         padding-top: 5%;
-        border-bottom: 2px solid #91B2C7;
-        border-top: 2px solid #91B2C7;
+        border-bottom: 2px solid #447A3F;
+        border-top: 2px solid #447A3F;
         justify-content: flex-start;
         margin: 0 auto;
-        margin-bottom: 10%;
-        margin-top: 5%;
+        margin-bottom: 7.5%;
+        margin-top: 10%;
         width: 95%;
+    }
+    .skill-icon-wrap{
+        display: flex;
     }
     .work-icon-wrap {
         display: flex;
@@ -408,6 +424,11 @@
     }
     .icon-label{
         text-align: left;
+    }
+    .icon-header {
+        padding-bottom: 5%;
+        font-size: 120%;
+        font-weight: bold;
     }
     /** Mobile Filler **/
     .mobile-filler {
@@ -434,12 +455,6 @@
     .about-text{
         padding-left: 0%;
         max-width: 100%;
-    }
-    .home-text {
-       width: 70%;
-       margin: auto;
-       padding-bottom: 5%;
-       font-size: 120%;
     }
     .mobile-border-home {
         width: 100%;
