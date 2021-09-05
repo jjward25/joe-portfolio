@@ -8,6 +8,8 @@ import linkedin from '../assets/icon-linkedin.png';
 import github from '../assets/icon-github.png';
 import medium from '../assets/icon-medium.png';
 import skillbar from '../assets/img-skillbar.png';
+import about from '../assets/icon-about.png';
+import testimonials from '../assets/icon-testimonials.png';
 
 
 const layout = layoutGenerator({
@@ -25,9 +27,23 @@ return (
     <div className='sidebar'>
 
         <Link to='/' className='sidebar-title-wrap'><div className='sidebar-title'><img src={name} alt='Joe Ward'  title={`Joe Ward`} id='title-img'/></div></Link>
+
         <div className='sidebar-selfie'><img src={selfie} alt='TechGear' id='main-img'/></div>
+
         <div className='sidebar-email'>Joseph.Ward@Outlook.com</div>
+
         <div className='social-section'>
+            {/* eslint-disable-next-line*/} 
+            <Link to='/about' ><div className='social-item'>
+                <div className='social-icon'><img src={about} alt='medium'  title={`About`} id='social-button'/></div>
+                <OnAtLeastTablet className='social-title'>About Joe</OnAtLeastTablet>
+            </div></Link>
+            {/* eslint-disable-next-line*/} 
+            <Link to='/portfolio'><div className='social-item'>
+                <div className='social-icon'><img src={testimonials} alt='medium'  title={`Testimonials`} id='social-button'/></div>
+                <OnAtLeastTablet className='social-title'>Testimonials</OnAtLeastTablet>
+            </div></Link>
+
             {/* eslint-disable-next-line*/} 
             <a href='https://www.linkedin.com/in/joe-ward1/' target="_blank" ><div className='social-item'>
                 <div className='social-icon'><img src={linkedin} alt='LinkedIn'  title={`LinkedIn`} id='social-button'/></div>
@@ -43,10 +59,13 @@ return (
                 <div className='social-icon'><img src={medium} alt='medium'  title={`Medium`} id='social-button'/></div>
                 <OnAtLeastTablet className='social-title'>Medium</OnAtLeastTablet>
             </div></a>
+
         </div>
         
-        <div className='skill-icons'><img src={skillbar} alt='skillbar'  title={`skillbar`} id='skillbar'/></div>
         <div className='sidebar-slogan'>Let's make things, better.</div>
+        
+        <div className='skill-icons'><img src={skillbar} alt='skillbar'  title={`skillbar`} id='skillbar'/></div>        
+
         <div className='call-to-action'>Start with a free consultation to see exactly how my skills and experience can work for you.</div>
  
     </div>

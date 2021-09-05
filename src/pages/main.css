@@ -67,158 +67,139 @@
     font-size: 1.5vh;
     font-weight: 600;
     padding: 1%;
-
     margin-top:2.5%;
     margin-left:auto;
     margin-right:auto;
-    border:2.5px solid  #3D6A88;
+    border:2.5px solid #447A3F;
+    border-radius: 8px;
 }
 
 /************************/
-/*** Homepage Nav Buttons ***/
+/*** Home Content Wrap ***/
 /************************/
-.home-nav {    
-    margin: 0 auto;
-    padding: 2.5%;
-    padding-left: 30%;
-    padding-right: 30%;
-    max-height: 100%;
+.skill-grid {
+    display: flex;
+    flex-direction: row;
+    padding: 2.5% 5%;
+}
+/************************/
+/*** Homepage Mobile-Only Nav Buttons ***/
+/************************/
+.home-nav{
+    position:fixed;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content:center;
+    max-width: 100%;
+    z-index: 2;
+    height: 7vh;
+    min-height: 7vh;
+    margin: 0;
+    background-color: #0C3C27;
+    border-bottom: 2px solid #447A3F;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 .nav-home{
     width: 45%;    
-
 }
 .nav-button {
     max-width: 100%;
     margin: auto;
     padding-left: 5%;
     padding-right: 5%;
-
 }
-
 .nav-link{
     width: 100%;
+    border: none;
     display: flex;
     align-items: center;
     justify-content:center;
-    background-color: #3D6A88;
-    border: 1px solid white;
+    background-color: #0C3C27;
 }
-
 .nav-text {
     font-size: 150%;
     color: white;
-    font-weight: 4  00;
+    font-weight: 400;
 }
-
 /************************/
-/*** Service Sample Content ***/
+/*** Skill & Work Icons ***/
 /************************/
-.skill-grid {
-    display: grid;
-    grid-template-columns: 10% 75% 15%;
-    grid-template-rows: auto;
-    grid-template-areas: 
-        "a b c"
-        "d e f";
-    padding-left: 2.5%;
-}
-.skills-label{
-    width: 100%;
-    text-align: left;
-    font-size: 80%;
-    font-weight: 700;
-    padding-left: 5%;
-    color: #91B2C7;
-}
-.skill-logos {
+.all-logos-wrap {
     display: flex;
-    flex-wrap: wrap;
-    width: 95%;
-    padding-top: 4px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    align-content: flex-start;
+    flex-direction: column;
+    margin: 0;
+    width: 12%;
+    text-align: center;
+}
+.skill-icon-wrap{
+    margin-top: 0;
 }
 #services-skill-button{
-    width: 42.5%;
-    padding-left: 5%;
-    padding-right: 5%;   
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-top: 15%;
+    padding-top: 10%;
+    width: 70%;
     min-height: 6vh;
+    max-height: 9vh;
+    margin: 0 auto;
 }
-
 .skill-main{
     font-size: 120%;
     font-weight: 500;   
     padding-top: 0%;
     padding-bottom: 3%;
-    padding-left: 3%;
+    padding-left: 7.5%;
+    padding-right: 2.5%;
     font-weight: 650;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.icon-header {
+    padding-bottom: 2.5%;
+    font-size: 110%;
+    font-weight: bold;
 }
 .skill-header {
-    padding-bottom: 1.5%;
+    padding-bottom: 2.5%;
 }
 .skill-list{
-    font-size: 80%;
+    font-size: 100%;
     font-weight: 500;
     padding-bottom: 1.5%;
 }
-
-/************************/
-/*** Job Icons  ***/
-/************************/
 .job-buttons{
     grid-area: c;
     display: flex;
     align-items: flex-start;
     justify-content: center;
 }
-.icon-label{
-    width: 100%;
-    text-align: center;
-    font-size: 80%;
-    font-weight: 700;
-    padding-bottom: 4%;
-    padding-top: 4px;
-    color: #91B2C7;
-}
 .work-icon-wrap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
+    padding-bottom: 5vh;
+    margin-bottom: 0;
 }
 #work-icon {
-    padding: 15%;
-    padding-top: 0;
-    max-width: 55%;
+    padding-top: 10%;
+    width: 70%;
+    min-height: 6vh;
+    max-height: 9vh;
+    margin: 0 auto;
 }
-
 /************************/
 /*** Personal Portfolio Carousel ***/
 /************************/
 .carousel-wrap {
-    padding-bottom: 2%;
+    padding-bottom: 10%;
+    padding-top: 5%;
     position: relative;
     z-index: 1;
-
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: left;
     justify-content: center;
-
     width: 100%;
     margin:0 auto;
-    margin-top: 1.5%;
     margin-left: 0;
 }
 .carousel-inner-wrap {
@@ -353,28 +334,7 @@
         padding-left: 10%;
         padding-right: 10%;
     }
-    .home-nav{
-        position:fixed;
-        max-width: 100%;
-        z-index: 2;
-        height: 7vh;
-        min-height: 7vh;
-        margin: 0;
-        background-color: #91B2C7;
-        border-bottom: 1px solid #08314B;
-        padding-left: 0%;
-        padding-right: 0%;
-    }
     /** mobile header nav **/
-    .nav-link{
-        background-color: #91B2C7;
-        width: 100%;
-        border: none;
-    }
-    .nav-text{
-        font-size: 115%;
-        color: #08314B;
-    }
     .home-text-wrap{
         padding-bottom: 5%;
     }
@@ -389,7 +349,6 @@
     }
     .skill-logos{
         margin-top: 5%;
-        margin-bottom: 4%;
         width: 100%;
         display: flex;
         align-content: center;  
@@ -418,7 +377,8 @@
         margin: auto;
     }
     .skill-header {
-        padding-bottom: 1.25%;
+        padding-bottom: 2.5%;
+        font-weight: bold;
     }
     /** Job Buttons **/
     .job-buttons{
@@ -439,6 +399,7 @@
         flex-direction: row;
         justify-content: space-around;
         width: 100%;
+        padding-bottom: 5%;
     }
     #work-icon {
         padding: 1%;
@@ -503,10 +464,10 @@
     /** Carousel **/
     .carousel-wrap {
         margin: 0 auto;
-        margin-top: 5%;
-        margin-bottom: 7.5%;
+        margin-top: 2.5%;
+        margin-bottom: 10%;
         width: 95%;
-        padding-bottom: 5%;
+        padding-bottom: 7.5%;
         border-bottom: 2px solid #91B2C7;
     }
     .carousel-item {
