@@ -374,6 +374,8 @@
         justify-content: space-around;
         border-bottom: 2px solid #447A3F;
         border-top: 2px solid #447A3F;
+        padding-top: 5%;
+        padding-bottom: 5%;
     }
     .skill-main{
         padding-left: 0px;
@@ -389,7 +391,7 @@
     #services-skill-button{
         padding-bottom: 5%;
         padding-top: 2%;
-        width: 20%;
+        width: 18%;
         height: 70%;
         max-height: 9vh;
         min-height: 8.5vh;
