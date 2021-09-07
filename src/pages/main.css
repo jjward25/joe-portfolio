@@ -18,7 +18,6 @@
     flex-direction: column;
     padding-left: 25vw;
 }
-
 /************************/
 /*** Growth Header Border CSS ***/
 /************************/
@@ -132,7 +131,7 @@
     flex-direction: column;
     padding-bottom: 5%;
     padding-top: 2.5%;
-    padding-left: 7.5%;
+    padding-left: 5%;
     padding-right: 7.5%;
 }
 .skill-main{
@@ -145,14 +144,15 @@
     flex-direction: column;
     margin: 0 auto;
 }
-.skill-header {
+#skill-header {
     padding-bottom: 2.5%;
+    width: 25vw;
 }
 .skill-list{
     font-size: 100%;
     font-weight: 500;
     padding-bottom: 2.5%;
-    padding-left: 2.5%;
+    padding-left: 5%;
     padding-right: 2.5%;
 }
 
@@ -181,7 +181,7 @@
 }
 .icon-header {
     padding: 2.5%;
-    font-size: 110%;
+    font-size: 100%;
     font-weight: bold;
     border-top: 2px solid rgb(32, 57, 87);
     background-color: #EAF2F8;  
@@ -329,8 +329,13 @@
         grid-template-rows: auto;
     }
     .home-content{
-        padding: 2.5%;
         border-top: 2px solid #91B2C7;
+        margin-top: 5%;
+        padding: 0;
+        padding-top: 5%;
+    }
+    .home-top-wrap{
+        padding: 2.5%;
     }
     .about-content, .testimonials-content{
         padding-left: 2.5%;
@@ -347,12 +352,16 @@
     .carousel-wrap{
         padding-top: 10%;
     }
-    .icon-header, .work-icon-wrap, .skill-icon-wrap {
-        margin-left: -5%;
-        margin-right: -5%;
+    #skill-header{
+        width: 50vw;
     }
     .skill-icon-wrap{
-        width: 110%;
+        width: 100%;
+    }
+    .skill-list{
+        padding-left: 2.5%;
+        padding-right: 0;
+        font-weight: 400;
     }
     .icon-header{
         padding-left: 5%;
