@@ -63,8 +63,12 @@
     text-align: center;
     font-size: 125%;
     font-weight: 500;
+    transition-property: font-size;
+    transition-duration: 1s;
 }
-
+.sidebar-email:hover, .social-title:hover{
+    font-size: 150%;
+}
 
 /** Sidebar Social Buttons **/
 .social-section {
@@ -100,6 +104,8 @@
     display: flex;
     align-items: center;
     justify-content: center; 
+    transition-property: font-size;
+    transition-duration: 1s;
 }
 
 /** Sidebar Footer Section **/
@@ -113,6 +119,11 @@
 }
 #skillbar {
     width: 60%;
+    transition-property: width;
+    transition-duration: 1s;
+}
+#skillbar:hover{
+    width: 85%;
 }
 .sidebar-slogan {
     max-height: 10vh;

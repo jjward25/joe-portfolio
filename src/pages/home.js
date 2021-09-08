@@ -65,11 +65,10 @@ return (
                         <div className='home-text-wrap'>
                             <img src={sampleProjects} alt='' id='skill-header'/>
                             <li className='skill-list'>Creating a stable reporting environment using available data and free tools. </li>
+                            <li className='skill-list'>{'Strategic Reviews: Individual and team interviews -> process mapping -> rough solutions design -> research industry best practices -> review and final design -> implementation.'}</li>                        
                             <li className='skill-list'>Leveling-up standard reporting from Shopify and other platforms with Tableau.</li>
                             <li className='skill-list'>Pulling external data via python webscrapers or public APIs; combining with industry research for ad hoc analyses.</li>
-                            <li className='skill-list'>One-time internal deep-dives; measuring effiency, process times, wait times, whatever's available to dig for opportunities.</li>
-                            <li className='skill-list'>Sitting down with team members, mapping out daily processes and finding and implementing efficiency-focused solutions (task automation or re-design) in a transparent and inclusive way.</li>
-                            <li className='skill-list'>{'Strategic Reviews: Individual and team interviews > process mapping > rough solutions design > research industry best practices > review and final design > implementation.'}</li>                        
+                            <li className='skill-list'>One-time internal deep-dives; measuring effiency, process times, widgets, whatever's available to dig for opportunities.</li>
                         </div>
                         <div className='carousel-wrap'>
                             {/* eslint-disable-next-line*/} 
@@ -109,20 +108,23 @@ return (
                     </div>
                 </div>
             </div>
-            <div className='icon-header'>Past Employment</div>
-            <div className='work-icon-wrap'>    
-                <img src={schwab} alt='schwab' id='work-icon' title='Charles Schwab'/>
-                <img src={tda} alt='tda' id='work-icon' title='TD Ameritrade'/>
-                <img src={pmp_logo} alt='pmp' id='work-icon' title='Practice Makes Perfect'/>
+            <div className='work-wrap'>
+                <div className='icon-header'>Past Employment</div>
+                <div className='work-icon-wrap'>    
+                    <img src={schwab} alt='schwab' id='work-icon' title='Charles Schwab'/>
+                    <img src={tda} alt='tda' id='work-icon' title='TD Ameritrade'/>
+                    <img src={pmp_logo} alt='pmp' id='work-icon' title='Practice Makes Perfect'/>
+                </div>
             </div>
-
-            <div className='icon-header'>{'Skills & Certs'}</div>
-            <div className='skill-icon-wrap'>
-                <img src={tableau} alt='tableau' id='services-skill-button' title='Tableau'/>
-                <img src={python} alt='python' id='services-skill-button' title='Python'/>
-                <img src={sql} alt='sql' id='services-skill-button' title='SQL'/>
-                <img src={sixsig} alt='six-sigma' id='services-skill-button' title='Lean/Six-Sigma'/>
-                <img src={pmp_pmi} alt='pmp' id='services-skill-button' title='PMP Project Managemnt Professional'/>
+            <div className='skill-wrap'>
+                <div className='icon-header'>{'Skills & Certs'}</div>
+                <div className='skill-icon-wrap'>
+                    <img src={tableau} alt='tableau' id='services-skill-button' title='Tableau'/>
+                    <img src={python} alt='python' id='services-skill-button' title='Python'/>
+                    <img src={sql} alt='sql' id='services-skill-button' title='SQL'/>
+                    <img src={sixsig} alt='six-sigma' id='services-skill-button' title='Lean/Six-Sigma'/>
+                    <img src={pmp_pmi} alt='pmp' id='services-skill-button' title='PMP Project Managemnt Professional'/>
+                </div>
             </div>
         </div>
     </div>

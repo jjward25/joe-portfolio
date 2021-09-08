@@ -159,47 +159,58 @@
 /************************/
 /*** Skill & Work Icons ***/
 /************************/
-.skill-logos{
+.work-wrap, .skill-wrap {
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    border-top: 2px solid rgb(32, 57, 87);
+}
+.skill-wrap{
+    border-bottom: 2px solid rgb(32, 57, 87);
+}
+.icon-header {
+    padding: 1%;
+    font-size: 100%;
+    font-weight: bold;
+    background-color: #EAF2F8;  
 }
 .skill-icon-wrap{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 0;
-    padding-bottom: 1.5%;   
     padding-left: 2.5%;   
     padding-right: 2.5%;
-    border-bottom: 2px solid rgb(32, 57, 87);
     background-color: #EAF2F8;
 }
 #services-skill-button{
-    width: 6%;
-    height: 80%;
-    margin: 0 auto;
-}
-.icon-header {
-    padding: 2.5%;
-    font-size: 100%;
-    font-weight: bold;
-    border-top: 2px solid rgb(32, 57, 87);
-    background-color: #EAF2F8;  
+    width: 5%;
+    height: auto;
+    margin: auto;
+    transition-property: width;
+    transition-duration: 1s;
 }
 .work-icon-wrap {
-    padding-bottom: 3%;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
     background-color: #EAF2F8;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 #work-icon {
-    width: 7%;
-    height: 100%;
+    width: 5%;
+    height: auto;
     margin: 0 auto;
     border: 1px solid black;
     border-radius: 15px;
+    transition-property: width;
+    transition-duration: 1s;
+}
+
+#work-icon:hover, #services-skill-button:hover{
+    width: 10%;
 }
 /************************/
 /*** Personal Portfolio Carousel ***/
@@ -270,6 +281,9 @@
     opacity: .4!important;
     background: #000!important;
     border-radius: 8px;
+}
+.carousel-status{
+    opacity: 0%;
 }
 
 /************************/
@@ -353,18 +367,30 @@
         padding-top: 10%;
         padding-left: 2.5%;
     }
+    .work-wrap, .skill-wrap {
+        display: flex;
+        flex-direction: column;
+    }
     #skill-header{
         width: 50vw;
+        padding-bottom: 5%;
     }
-    .skill-icon-wrap{
+    .skill-icon-wrap, .work-icon-wrap{
         width: 100%;
+        padding-bottom: 5%;
     }
     .skill-list{
         padding-left: 2.5%;
         padding-right: 0;
+        padding-bottom: 5%;
         font-weight: 400;
+        font-size: 85%;
     }
     .icon-header{
-        padding-left: 5%;
+        padding: 2.5%;
+    }
+    #work-icon, #services-skill-button{
+        width: 7.5%;
     }
 }
+
