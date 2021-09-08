@@ -248,4 +248,8 @@
         height: auto;
         padding-bottom: 5vh;
     }
+    .sidebar-email:hover, #skillbar:hover{
+        font-size: 105%;
+        width: 60%;
+    }
 }
