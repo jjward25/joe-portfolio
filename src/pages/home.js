@@ -65,11 +65,10 @@ return (
                         <div className='home-text-wrap'>
                             <img src={sampleProjects} alt='' id='skill-header'/>
                             <li className='skill-list'>Creating a stable reporting environment using available data and free tools. </li>
-                            <li className='skill-list'>Leveling-up standard reporting from Shopify and other platforms using advanced Tableau visuals.</li>
+                            <li className='skill-list'>Leveling-up standard reporting from Shopify and other platforms with Tableau.</li>
                             <li className='skill-list'>Pulling external data via python webscrapers or public APIs; combining with industry research for ad hoc analyses.</li>
                             <li className='skill-list'>One-time internal deep-dives; measuring effiency, process times, wait times, whatever's available to dig for opportunities.</li>
                             <li className='skill-list'>Sitting down with team members, mapping out daily processes and finding and implementing efficiency-focused solutions (task automation or re-design) in a transparent and inclusive way.</li>
-                            <li className='skill-list'>Conducted sensitive interviews to determine if merging two teams was workable and in everyone's best interest.</li>
                             <li className='skill-list'>{'Strategic Reviews: Individual and team interviews > process mapping > rough solutions design > research industry best practices > review and final design > implementation.'}</li>                        
                         </div>
                         <div className='carousel-wrap'>
