@@ -42,9 +42,7 @@ const layout = layoutGenerator({
                 <div className='about-header'>I use modern tools and techniques to help small businesses operate more like big ones.</div>
                 <div className='about-text'>In general, I think breadth matters more than depth. I think that past a certain point of awareness, there is far greater value in having a variety 
                                             of experiences to pull from than in reading more best-in-class consulting decks and whitepapers. Not because the papers aren't useful or insightful, 
-                                            but because we can read them any time.</div>
-                <div className='about-text'>I gain the most valuable knowledge from <em>you</em>.  I ask direct questions, not only without judgement, but with as much understanding as I can give at the 
-                                            moment.</div>
+                                            but because we can read them any time.  I gain the most valuable knowledge from <em>you</em>.</div>
                 <div className='about-text'>It's important to know where to find the best practices (ie: what do the most recognized certifications teach?), how to use the tools, and actually 
                                             do the work.  Skills have their own baseline competencies that are specific to each job, but industries, companies, teams, and problems simply need 
                                             to be understood.</div>
