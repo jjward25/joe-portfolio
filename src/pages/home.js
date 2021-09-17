@@ -15,7 +15,7 @@ import pmp_logo from '../assets/work-pmp.png';
 import schwab from '../assets/work-schwab.png';
 import tda from '../assets/work-tda.png';
 import procurementDash from '../assets/portfolio-tableau-procurement.png';
-import shopifyDash from '../assets/portfolio-tableau-shopify.PNG';
+import shopifyDash from '../assets/portfolio-shopify.PNG';
 import pythonAPI from '../assets/portfolio-python-api.PNG';
 import adeptProcessMap from '../assets/portfolio-figma-process-map.PNG';
 import whitepaper from '../assets/portfolio-whitepaper.PNG';
