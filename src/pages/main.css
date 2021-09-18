@@ -371,7 +371,7 @@
     .home-content{
         border-top: 2px solid #91B2C7;
         padding: 0;
-        padding-top: 10%;
+        margin-top: 10%;
         height: 100%;
     }
     .home-top-wrap{
@@ -408,6 +408,7 @@
         height: auto;
         border-radius: 0;
         padding-left: 2.5%;
+        margin:0;
     }
     .home-text-wrap{
         height: auto;
