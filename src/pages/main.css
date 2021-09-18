@@ -29,6 +29,7 @@
     padding-top: 2.5%;
     align-items: center;
     justify-content: center;
+    background-color: #eff9ff;
 }
 .border-box {
     border-bottom: 5px solid rgb(32, 57, 87);
@@ -36,7 +37,7 @@
     height: 100%;
 }
 .border-images {
-    background-color: #fff;
+    background-color: #eff9ff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,12 +62,12 @@
     margin: auto;
 }
 .home-text {
-    width: 90%;
+    width: 100%;
     max-width: 100%;
-    margin-top:2.5%;
-    margin-left:auto;
-    margin-right:auto;
-
+    padding-top:2.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #eff9ff;
 }
 .home-text-block{
     font-size: 110%;
@@ -122,6 +123,7 @@
 /*** Home Content Wrap ***/
 /************************/
 .skill-grid {
+    background-color: #eff9ff;
     display: flex;
     flex-direction: column;
     padding-bottom: 5%;
@@ -342,9 +344,11 @@
         margin-top: 5%;
         padding: 0;
         padding-top: 5%;
+        background-color: #eff9ff;
     }
     .home-top-wrap{
         padding: 2.5%;
+        background-color: #eff9ff;
     }
     .about-content, .testimonials-content{
         padding-left: 2.5%;
