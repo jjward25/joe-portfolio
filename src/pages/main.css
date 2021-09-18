@@ -396,7 +396,7 @@
         height: auto;
     }
     .legend{
-        bottom: 5px !important;
+        bottom: 0px !important;
         margin:auto;
     }
     .work-wrap, .skill-wrap {
