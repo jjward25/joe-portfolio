@@ -454,7 +454,10 @@
     .icon-header{
         padding: 2.5%;
     }
+    .skill-item-wrap{
+        width: 10%;
+    }
     #work-icon, #services-skill-button{
-        width: 7.5%;
+        width: 80%;
     }
 }
