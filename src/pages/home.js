@@ -62,7 +62,7 @@ return (
                 </OnAtLeastTablet>
                 <div className= 'skill-grid'> 
                 <div className='skill-main'>
-                    <img src={sampleProjects} alt='' id='skill-header'/>
+                    <div id='skill-header'>Sample Projects:</div>
                         <div className='home-text-wrap'> 
                             <li className='skill-list'>Creating a stable reporting environment using available data and free tools. </li>
                             <li className='skill-list'>{'Strategic Reviews: Individual and team interviews -> process mapping -> rough solutions design -> research industry best practices -> review and final design -> implementation.'}</li>                        
