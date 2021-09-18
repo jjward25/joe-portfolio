@@ -56,7 +56,7 @@ return (
                 </OnAtLeastTablet>
                 <OnAtLeastTablet className='home-text-wrap'> 
                     <div className='home-text'>
-                        <p className='home-text-block'>Do you need help maximizing your data? Setting up meaningful, recurring reporting? Maybe you're looking for task automation, process reviews, or a one-off strategic analysis? </p>
+                        <p className='home-text-block'>Do you need help maximizing your data? Maybe you're looking for task automation, process reviews, or a one-off strategic analysis? </p>
                         <p className='home-text-block'>These are some of the things I can help with as a consultant and experienced project manager.  Working as a team, we will identify, prioritize, and implement creative and custom solutions to your team's biggest problems. </p>
                     </div>
                 </OnAtLeastTablet>
