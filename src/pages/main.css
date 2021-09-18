@@ -75,12 +75,13 @@
 /*** Homepage Top Text ***/
 /************************/
 .home-text {
-    height: 16vh;
+    height: 18vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     width: 100%;
     max-width: 100%;
+    padding-top: 1.5%;
     padding-left: 5%;
     padding-right: 5%;
     background-color: #c6d3eb;
@@ -143,7 +144,7 @@
     padding-bottom: 2.5vh;
     padding-left: 5%;
     padding-right: 7.5%;
-    height: 73.5vh;
+    height: 71.5vh;
 }
 #skill-header {
     padding-left: 1.5%;
@@ -394,6 +395,11 @@
         padding: 5%;
         padding-bottom: 7.5%;
         height: auto;
+        margin-top: 0;
+    }
+    .carousel-item, .legend{
+        max-width: 55vw;
+        max-height: 20vh;
     }
     .legend{
         bottom: 0px !important;
