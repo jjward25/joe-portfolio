@@ -46,15 +46,15 @@ return (
         
         <div className='home-content'>
             <div className='home-top-wrap'>
-                <OnAtLeastTablet className='border-grid'>
+                <OnAtLeastTablet className='border-grid-home'>
                     <div className='border-box'></div>
-                    <div className='border-images'>
+                    <div className='border-images-home'>
                         <img src={bulb} alt='bulb' id='border-pic'/>
                         <img src={tree} alt='tree' id='border-pic'/>
                         <img src={biz} alt='biz' id='border-pic'/>
                     </div>
                 </OnAtLeastTablet>
-                <OnAtLeastTablet className='home-text-wrap'> 
+                <OnAtLeastTablet className='home-text-wrapper'> 
                     <div className='home-text'>
                         <p className='home-text-block'>Do you need help maximizing your data? Maybe you're looking for task automation, process reviews, or a one-off strategic analysis? </p>
                         <p className='home-text-block'>These are some of the things I can help with as a consultant and experienced project manager.  Working as a team, we will identify, prioritize, and implement creative and custom solutions to your team's biggest problems. </p>
@@ -62,8 +62,8 @@ return (
                 </OnAtLeastTablet>
                 <div className= 'skill-grid'> 
                 <div className='skill-main'>
-                        <div className='home-text-wrap'>
-                            <img src={sampleProjects} alt='' id='skill-header'/>
+                    <img src={sampleProjects} alt='' id='skill-header'/>
+                        <div className='home-text-wrap'> 
                             <li className='skill-list'>Creating a stable reporting environment using available data and free tools. </li>
                             <li className='skill-list'>{'Strategic Reviews: Individual and team interviews -> process mapping -> rough solutions design -> research industry best practices -> review and final design -> implementation.'}</li>                        
                             <li className='skill-list'>Leveling-up standard reporting from Shopify and other platforms with Tableau.</li>

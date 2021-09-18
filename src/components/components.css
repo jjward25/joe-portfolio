@@ -169,7 +169,7 @@
     justify-content: center;  
     padding-left: 2.5%;
     padding-right: 2.5%;
-    background-color: rgb(32, 57, 87);
+    background-color: #111F2D;
 }
 #mobile-button {
     width: 70%;
@@ -190,8 +190,7 @@
 }
 .mobile-border-box {
     border-bottom: 2px solid #91B2C7;
-    background-color: #fff;
-    background-color: rgb(32, 57, 87);
+    background-color: #111F2D;
 }
 .mobile-border-images {
     background-color: #fff;
