@@ -111,19 +111,19 @@ return (
             <div className='work-wrap'>
                 <div className='icon-header'>Past Employment</div>
                 <div className='work-icon-wrap'>    
-                    <img src={schwab} alt='schwab' id='work-icon' title='Charles Schwab'/>
-                    <img src={tda} alt='tda' id='work-icon' title='TD Ameritrade'/>
-                    <img src={pmp_logo} alt='pmp' id='work-icon' title='Practice Makes Perfect'/>
+                    <p className='skill-item-wrap'><img src={schwab} alt='schwab' id='work-icon' title='Charles Schwab'/>Charles Schwab</p>
+                    <p className='skill-item-wrap'><img src={tda} alt='tda' id='work-icon' title='TD Ameritrade'/>TD Ameritrade</p>
+                    <p className='skill-item-wrap'><img src={pmp_logo} alt='pmp' id='work-icon' title='Practice Makes Perfect'/>Practice Makes Perfect</p>
                 </div>
             </div>
             <div className='skill-wrap'>
                 <div className='icon-header'>{'Skills & Certs'}</div>
                 <div className='skill-icon-wrap'>
-                    <img src={tableau} alt='tableau' id='services-skill-button' title='Tableau'/>
-                    <img src={python} alt='python' id='services-skill-button' title='Python'/>
-                    <img src={sql} alt='sql' id='services-skill-button' title='SQL'/>
-                    <img src={sixsig} alt='six-sigma' id='services-skill-button' title='Lean/Six-Sigma'/>
-                    <img src={pmp_pmi} alt='pmp' id='services-skill-button' title='PMP Project Managemnt Professional'/>
+                    <p className='skill-item-wrap'><img src={tableau} alt='tableau' id='services-skill-button' title='Tableau'/>Tableau</p>
+                    <p className='skill-item-wrap'><img src={python} alt='python' id='services-skill-button' title='Python'/>Python</p>
+                    <p className='skill-item-wrap'><img src={sql} alt='sql' id='services-skill-button' title='SQL'/>SQL</p>
+                    <p className='skill-item-wrap'><img src={sixsig} alt='six-sigma' id='services-skill-button' title='Lean/Six-Sigma'/>Six Sigma</p>
+                    <p className='skill-item-wrap'><img src={pmp_pmi} alt='pmp' id='services-skill-button' title='PMP Project Managemnt Professional'/>Project Management</p>
                 </div>
             </div>
         </div>
