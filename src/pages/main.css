@@ -395,6 +395,10 @@
         padding-bottom: 7.5%;
         height: auto;
     }
+    .legend{
+        bottom: 5px;
+        margin:auto;
+    }
     .work-wrap, .skill-wrap {
         display: flex;
         flex-direction: column;
