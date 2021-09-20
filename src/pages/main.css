@@ -177,7 +177,7 @@
     justify-content: space-evenly;
 }
 .skill-list{
-    font-size: 90%;
+    font-size: 100%;
     font-weight: 500;
     padding-top: 1vh;
     padding-left: 5%;
@@ -375,7 +375,7 @@
 }
 .about-header {
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 2.5%;
     padding-right: 15%;
     font-size: 175%;
     font-weight: 600;
@@ -383,7 +383,7 @@
 .about-text {
     font-size: 100%;
     line-height: 1.7;
-    padding-bottom: 3%;
+    padding-bottom: 2.5%;
     max-width: 70%;
 }
 
