@@ -46,11 +46,11 @@ return (
         <div className='home-content'>
             <div className='home-top-wrap'>
                 <OnAtLeastTablet className='border-grid-home'>
-                    <div className='border-box'></div>
+                    <div className='border-box-home'></div>
                     <div className='border-images-home'>
-                        <img src={bulb} alt='bulb' id='border-pic'/>
-                        <img src={tree} alt='tree' id='border-pic'/>
-                        <img src={biz} alt='biz' id='border-pic'/>
+                        <img src={bulb} alt='bulb' id='border-pic-home'/>
+                        <img src={tree} alt='tree' id='border-pic-home'/>
+                        <img src={biz} alt='biz' id='border-pic-home'/>
                     </div>
                 </OnAtLeastTablet>
                 <OnAtLeastTablet className='home-text-wrapper'> 

@@ -22,38 +22,48 @@
 /*** Growth Header Border CSS ***/
 /************************/
 .border-grid-home{
+    position: fixed !important;
+    width:75vw;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 4vh 4vh;
+    grid-template-rows: 6.5vh 4vh;
     position: relative;
-    padding-top: 2.5vh;
     align-items: center;
     justify-content: center;
-    background-color: rgb(247, 247, 247);
 }
 .border-grid {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 4vh 4vh;
+    grid-template-rows: 6.5vh 4vh;
     position: relative;
-    padding-top: 2.5vh;
     align-items: center;
     justify-content: center;
 }
 .border-box {
     border-bottom: 5px solid #111F2D;
-    align-items: baseline;
+    align-items: center;
     height: 100%;
+    background-color: rgb(247, 247, 247);
+}
+.border-box-home {
+    border-bottom: 5px solid #91B2C7;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(247, 247, 247);
+    background-color: #111F2D;
 }
 .border-images-home{
-    background-color: rgb(247, 247, 247);
+    background-color: #d8e8f1;
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
     left: 30%;
     width: 40%;
-    padding-top: 2.5%;
+    border-radius: 10px;
+    border: 5px solid #111F2D;
+    height: 8vh;
+    margin-top: 2vh;
 }
 .border-images {
     display: flex;
@@ -62,15 +72,21 @@
     position: absolute;
     left: 30%;
     width: 40%;
-    padding-top: 2.5%;
-    background-color: white;
+    background-color: rgb(247, 247, 247);
+    height: 8vh;
+    margin-top: 2vh;
 }
 #border-pic{
     max-width: 7vw;
     padding-left: 2vw;
     padding-right: 2vw;    
 }
-
+#border-pic-home{
+    max-width: 9vw;
+    padding-left: 2vw;
+    padding-right: 2vw;   
+    height: 75%; 
+}
 /************************/
 /*** Homepage Top Text ***/
 /************************/
@@ -83,7 +99,7 @@
     justify-content: space-evenly;
     width: 95%;
     max-width: 95%;
-    margin-top: 4vh;
+    margin-top: 14vh;
     margin-left: 5%;
     padding-left: 1.5%;
     padding-right: 1.5%;
@@ -353,6 +369,7 @@
     width: 100%;
     max-width: 100%;
     padding-left: 25vw;
+    background-color: rgb(247, 247, 247);
 }
 .testimonial-body{
     padding-top: 2.5%;
@@ -369,6 +386,7 @@
     display:flex;
     flex-direction: column;
     padding-left: 25vw;
+    background-color: rgb(247, 247, 247);
 }
 .about-box {
     height: 100%;
@@ -376,7 +394,7 @@
     margin:auto;
 }
 .about-header {
-    padding-top: 5%;
+    padding-top: 4%;
     padding-bottom: 2.5%;
     padding-right: 15%;
     font-size: 175%;
