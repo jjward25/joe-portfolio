@@ -34,17 +34,6 @@ return (
 
         <div className='social-section'>
             {/* eslint-disable-next-line*/} 
-            <Link to='/about' ><div className='social-item'>
-                <div className='social-icon'><img src={about} alt='medium'  title={`About`} id='social-button'/></div>
-                <OnAtLeastTablet className='social-title'>About Joe</OnAtLeastTablet>
-            </div></Link>
-            {/* eslint-disable-next-line*/} 
-            <Link to='/portfolio'><div className='social-item'>
-                <div className='social-icon'><img src={testimonials} alt='medium'  title={`Testimonials`} id='social-button'/></div>
-                <OnAtLeastTablet className='social-title'>Testimonials</OnAtLeastTablet>
-            </div></Link>
-
-            {/* eslint-disable-next-line*/} 
             <a href='https://www.linkedin.com/in/joe-ward1/' target="_blank" ><div className='social-item'>
                 <div className='social-icon'><img src={linkedin} alt='LinkedIn'  title={`LinkedIn`} id='social-button'/></div>
                 <OnAtLeastTablet className='social-title'>LinkedIn</OnAtLeastTablet>
@@ -59,7 +48,16 @@ return (
                 <div className='social-icon'><img src={medium} alt='medium'  title={`Medium`} id='social-button'/></div>
                 <OnAtLeastTablet className='social-title'>Medium</OnAtLeastTablet>
             </div></a>
-
+            {/* eslint-disable-next-line*/} 
+            <Link to='/portfolio'><div className='social-item'>
+                <div className='social-icon'><img src={testimonials} alt='medium'  title={`Testimonials`} id='social-button'/></div>
+                <OnAtLeastTablet className='social-title'>Testimonials</OnAtLeastTablet>
+            </div></Link>
+             {/* eslint-disable-next-line*/} 
+             <Link to='/about' ><div className='social-item'>
+                <div className='social-icon'><img src={about} alt='medium'  title={`About`} id='social-button'/></div>
+                <OnAtLeastTablet className='social-title'>About Joe</OnAtLeastTablet>
+            </div></Link>
         </div>
         
         <div className='sidebar-slogan'>Let's make things, better.</div>

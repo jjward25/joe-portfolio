@@ -29,7 +29,7 @@
     padding-top: 2.5vh;
     align-items: center;
     justify-content: center;
-    background-color: #c6d3eb;
+    background-color: white;
 }
 .border-grid {
     display: grid;
@@ -46,7 +46,7 @@
     height: 100%;
 }
 .border-images-home{
-    background-color: #c6d3eb;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,22 +75,26 @@
 /*** Homepage Top Text ***/
 /************************/
 .home-text {
-    height: 18vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 100%;
-    max-width: 100%;
-    padding-top: 1.5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: #c6d3eb;
+    width: 95%;
+    max-width: 95%;
+    margin-top: 4vh;
+    margin-left: 5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #111F2D;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 .home-text-block{
-    font-size: 110%;
-    font-weight: 700;
+    font-size: 150%;
+    font-weight: 450;
     margin: 0;
-    color: black;
+    color: #91B2C7;
 }
 /************************/
 /*** Homepage Mobile-Only Nav Buttons ***/
@@ -133,18 +137,16 @@
     color: white;
     font-weight: 400;
 }
-
 /************************/
 /*** Home Content Wrap ***/
 /************************/
 .skill-grid {
-    background-color: #c6d3eb;
+    background-color: white;
     display: flex;
     flex-direction: column;
     padding-bottom: 2.5vh;
     padding-left: 5%;
     padding-right: 7.5%;
-    height: 71.5vh;
 }
 #skill-header {
     padding-left: 1.5%;
@@ -155,7 +157,7 @@
     height: 5.5vh;
     background-color: #111F2D;
     border-radius: 10px;
-    color: white;
+    color: lightgrey;
     font-size: 150%;
 }
 .skill-main{
@@ -188,16 +190,17 @@
 .work-wrap, .skill-wrap {
     display: flex;
     width: 100%;
-    border-top: 2px solid rgb(32, 57, 87);
+    border-top: 2px solid rosybrown;
 }
 .skill-wrap{
-    border-bottom: 2px solid rgb(32, 57, 87);
+    border-bottom: 2px solid rosybrown;
 }
 .icon-header {
     padding: 1%;
     font-size: 100%;
     font-weight: bold;
-    background-color: #EAF2F8;  
+    background-color: #111F2D;
+    color: lightgrey;
 }
 .skill-icon-wrap{
     display: flex;
@@ -206,21 +209,38 @@
     width: 100%;
     padding-left: 2.5%;   
     padding-right: 2.5%;
-    background-color: #EAF2F8;
+    background-color: #111F2D;
+    color: lightgrey;
 }
 .skill-item-wrap{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 15%;
     font-size: 0;
     transition-property: font-size;
+    transition-duration: 1s;
+}
+.skill-item-wrap:hover, .work-item-wrap:hover{
+    font-size: 100%;
+    font-weight: bold;
 }
 #services-skill-button{
-    width: 20%;
+    width: 35%;
     height: auto;
     margin: auto;
     transition-property: width;
+    transition-duration: 2s;
+}
+.work-item-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    font-size: 0;
+    transition-property: font-size;
     transition-duration: 1s;
 }
 .work-icon-wrap {
@@ -230,27 +250,21 @@
     width: 100%;
     padding-left: 2.5%;
     padding-right: 2.5%;
-    background-color: #EAF2F8;
+    background-color: #111F2D;
+    color: lightgrey;
     padding-top: 1%;
     padding-bottom: 1%;
 }
 #work-icon {
-    width: 10%;
+    width: 15%;
     height: auto;
     margin: 0 auto;
     border: 1px solid black;
     border-radius: 15px;
     transition-property: width;
-    transition-duration: 1s;
+    transition-duration: 2s;
 }
 
-#work-icon:hover, #services-skill-button:hover{
-    width: 0%;
-}
-.skill-item-wrap:hover{
-    font-size: 100%;
-    font-weight: bold;
-}
 /************************/
 /*** Personal Portfolio Carousel ***/
 /************************/
@@ -269,6 +283,7 @@
     margin:0 auto;
     margin-left: 0;
     margin-top: 2.5%;
+    margin-bottom: 1.5%;
 }
 .carousel-inner-wrap {
     width: 100%;    
@@ -410,6 +425,9 @@
         height: auto;
         margin-top: 0;
     }
+    .carousel .slider-wrapper {
+        width: 102% !important;
+    }   
     .carousel-item, .legend{
         max-width: 55vw;
         max-height: 20vh;
@@ -444,6 +462,9 @@
         width: 100%;
         padding-bottom: 5%;
     }
+    #work-icon:hover, #services-skill-button:hover{
+        width: 0%;
+    }
     .skill-list{
         padding-left: 2.5%;
         padding-right: 0;
@@ -454,7 +475,7 @@
     .icon-header{
         padding: 2.5%;
     }
-    .skill-item-wrap{
+    .skill-item-wrap, .work-item-wrap{
         width: 10%;
     }
     #work-icon, #services-skill-button{

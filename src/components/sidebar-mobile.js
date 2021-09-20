@@ -9,7 +9,6 @@ import github from '../assets/icon-github.png';
 import medium from '../assets/icon-medium.png';
 import skillbar from '../assets/img-skillbar.png';
 
-
 const layout = layoutGenerator({
   mobile: 0,
   phablet: 550,

@@ -23,7 +23,6 @@ import webscraper from '../assets/portfolio-webscraper.PNG';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import MobileHomeNav from '../components/mobile-home-nav';
-import sampleProjects from '../assets/sample-projects.png';
 
 
 const layout = layoutGenerator({
@@ -56,8 +55,7 @@ return (
                 </OnAtLeastTablet>
                 <OnAtLeastTablet className='home-text-wrapper'> 
                     <div className='home-text'>
-                        <p className='home-text-block'>Do you need help maximizing your data? Maybe you're looking for task automation, process reviews, or a one-off strategic analysis? These are some of the things I can help with as a consultant and experienced project manager.</p>
-                        <p className='home-text-block'>Working as a team, we will identify, prioritize, and implement creative and custom solutions to your team's biggest problems. </p>
+                        <p className='home-text-block'>Working as a team, we will identify, prioritize, and implement <b style={{color:'lightgrey'}}>creative, custom solutions</b> to your team's biggest problems.</p>
                     </div>
                 </OnAtLeastTablet>
                 <div className= 'skill-grid'> 
@@ -111,9 +109,9 @@ return (
             <div className='work-wrap'>
                 <div className='icon-header'>Past Employment</div>
                 <div className='work-icon-wrap'>    
-                    <p className='skill-item-wrap'><img src={schwab} alt='schwab' id='work-icon' title='Charles Schwab'/>Charles Schwab</p>
-                    <p className='skill-item-wrap'><img src={tda} alt='tda' id='work-icon' title='TD Ameritrade'/>TD Ameritrade</p>
-                    <p className='skill-item-wrap'><img src={pmp_logo} alt='pmp' id='work-icon' title='Practice Makes Perfect'/>Practice Makes Perfect</p>
+                    <p className='work-item-wrap'><img src={schwab} alt='schwab' id='work-icon' title='Charles Schwab'/>Charles Schwab</p>
+                    <p className='work-item-wrap'><img src={tda} alt='tda' id='work-icon' title='TD Ameritrade'/>TD Ameritrade</p>
+                    <p className='work-item-wrap'><img src={pmp_logo} alt='pmp' id='work-icon' title='Practice Makes Perfect'/>Practice Makes Perfect</p>
                 </div>
             </div>
             <div className='skill-wrap'>
