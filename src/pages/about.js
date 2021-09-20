@@ -44,13 +44,23 @@ const layout = layoutGenerator({
                                             of experiences to pull from than in reading more best-in-class consulting decks and whitepapers. Not because the papers aren't useful or insightful, 
                                             but because we can read them any time.  I gain the most valuable knowledge from <em>you</em>.</div>
                 <div className='about-text'>It's important to know where to find the best practices (ie: what do the most recognized certifications teach?), how to use the tools, and actually 
-                                            do the work.  Skills have their own baseline competencies that are specific to each job, but industries, companies, teams, and problems simply need 
+                                            do the work.  Skills have baseline competencies that are specific to each job, but industries, companies, teams, and problems simply need 
                                             to be understood.</div>
-                <div className='about-text'>Understanding requires good communication - open, honest, and detail oriented. I foster an environment of trust with my engagements, acting on behalf
-                                             of every team member as I help find solutions to your team's most persistent issues and give everyone more time to focus on the things they want to 
-                                             be doing.</div>
+                <div className='about-text'>Understanding requires good communication. I foster an environment of trust with my engagements, acting on behalf
+                                             of every team member as I help find solutions to your team's most persistent issues. Then I'll use tools like Tableau or Python to help you
+                                             implement and monitor everything we come up with.</div>
             </div>
 
+            <div className='other-projects-wrap'>
+                <div className='other-projects-header'>Personal Projects</div>
+                <div className='other-projects-list'>
+                    {/* eslint-disable-next-line*/} 
+                    <a href='https://www.bracketquiz.com/' target="_blank" className='other-projects-item'>
+                        <img src='https://i.imgur.com/qXF14ee.png' alt='bracket' id='Bracket-Game'/>
+                        <p className='project-title'>The Bracket Game</p>
+                    </a>
+                </div>
+            </div>
           </div>
 
       </div>
