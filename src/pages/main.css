@@ -29,7 +29,7 @@
     padding-top: 2.5vh;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    background-color: rgb(247, 247, 247);
 }
 .border-grid {
     display: grid;
@@ -46,7 +46,7 @@
     height: 100%;
 }
 .border-images-home{
-    background-color: white;
+    background-color: rgb(247, 247, 247);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,6 +74,9 @@
 /************************/
 /*** Homepage Top Text ***/
 /************************/
+.home-top-wrap{
+    background-color: rgb(247, 247, 247);
+}
 .home-text {
     display: flex;
     flex-direction: column;
@@ -141,7 +144,7 @@
 /*** Home Content Wrap ***/
 /************************/
 .skill-grid {
-    background-color: white;
+    background-color: rgb(247, 247, 247);
     display: flex;
     flex-direction: column;
     padding-bottom: 2.5vh;
