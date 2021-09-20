@@ -39,21 +39,14 @@
     align-items: center;
     justify-content: center;
 }
-.border-box {
+.border-box-home {
     border-bottom: 5px solid #111F2D;
     align-items: center;
     height: 100%;
     background-color: rgb(247, 247, 247);
 }
-.border-box-home {
-    border-bottom: 5px solid #91B2C7;
-    align-items: center;
-    height: 100%;
-    background-color: rgb(247, 247, 247);
-    background-color: #111F2D;
-}
 .border-images-home{
-    background-color: #d8e8f1;
+    background-color: rgb(247, 247, 247);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,22 +57,6 @@
     border: 5px solid #111F2D;
     height: 8vh;
     margin-top: 2vh;
-}
-.border-images {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    left: 30%;
-    width: 40%;
-    background-color: rgb(247, 247, 247);
-    height: 8vh;
-    margin-top: 2vh;
-}
-#border-pic{
-    max-width: 7vw;
-    padding-left: 2vw;
-    padding-right: 2vw;    
 }
 #border-pic-home{
     max-width: 9vw;
