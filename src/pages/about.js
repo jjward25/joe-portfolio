@@ -55,8 +55,8 @@ const layout = layoutGenerator({
                 <div className='other-projects-header'>Personal Projects</div>
                 <div className='other-projects-list'>
                     {/* eslint-disable-next-line*/} 
-                    <a href='https://www.bracketquiz.com/' target="_blank" className='other-projects-item'>
-                        <img src='https://www.topictournaments.com' alt='Topic-Tourny-Game' id='project-img'/>
+                    <a href='https://www.topictournaments.com' target="_blank" className='other-projects-item'>
+                        <img src='https://i.imgur.com/qXF14ee.png' alt='Topic-Tourny-Game' id='project-img'/>
                         <p className='project-title'>Topic Tournaments Game</p>
                     </a>
                     {/* eslint-disable-next-line*/} 
