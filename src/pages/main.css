@@ -403,18 +403,19 @@
     padding: 2.5%;
     width:100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .other-projects-item{
     display: flex;
     flex-direction: column;
-    max-width: 15%;
-    margin-right: auto;
+    width: 15vh;
+    margin-right: 10%;
     margin-left: 0;
 }
-#Bracket-Game{
+#project-img{
     width: 100%;
     border-radius: 10px;
+    height: 15vh;
 }
 .project-title{
     text-align: center;
@@ -458,6 +459,9 @@
     .about-header{
         padding-right: 0;
     }
+    .project-title{
+        width: 100%;
+    }
     .other-projects-list{
         display: flex;
         flex-direction: column;
@@ -466,10 +470,11 @@
     }
     .other-projects-item{
         flex-direction: row;
-        max-width: 100%;
+        width: 100%;
+        margin-bottom: 10%;
     }
-    #Bracket-Game{
-        width:50%;
+    #project-img{
+        width:15vh;
     }
     .project-title{
         text-align: left;

@@ -47,7 +47,7 @@ const layout = layoutGenerator({
                                             do the work.  Skills have baseline competencies that are specific to each job, but industries, companies, teams, and problems simply need 
                                             to be understood.</div>
                 <div className='about-text'>Understanding requires good communication. I foster an environment of trust with my engagements, acting on behalf
-                                             of every team member as I help find solutions to your team's most persistent issues. Then I'll use tools like Tableau or Python to help you
+                                             of every team member as I help find solutions to your team's most persistent issues. Then I'll use tools like Tableau, Python, or my project management experience to help you
                                              implement and monitor everything we come up with.</div>
             </div>
 
@@ -56,8 +56,13 @@ const layout = layoutGenerator({
                 <div className='other-projects-list'>
                     {/* eslint-disable-next-line*/} 
                     <a href='https://www.bracketquiz.com/' target="_blank" className='other-projects-item'>
-                        <img src='https://i.imgur.com/qXF14ee.png' alt='bracket' id='Bracket-Game'/>
+                        <img src='https://i.imgur.com/qXF14ee.png' alt='bracket' id='project-img'/>
                         <p className='project-title'>The Bracket Game</p>
+                    </a>
+                    {/* eslint-disable-next-line*/} 
+                    <a href='https://drive.google.com/drive/folders/1071BfoIrTB6qLurCf3S_SnujvRnSvepB?usp=sharing' target="_blank" className='other-projects-item'>
+                        <img src='https://i.imgur.com/kDCa7QB.png' alt='podcast' id='project-img'/>
+                        <p className='project-title'>Casually Adept Podcast</p>
                     </a>
                 </div>
             </div>
