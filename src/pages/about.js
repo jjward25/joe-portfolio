@@ -2,10 +2,18 @@ import React from 'react';
 import './main.css';
 import Sidebar from '../components/sidebar';
 import bulb from '../assets/img-bulb.png';
-import tree from '../assets/img-tree.png';
+import tree from '../assets/img-tree.png';  
 import biz from '../assets/img-biz.png';
 import { layoutGenerator } from 'react-break';
 import MobileMenu from '../components/mobile-menu';
+import medium from '../assets/icon-medium.png'
+
+/*
+ {/* eslint-disable-next-line} 
+ <a href='https://drive.google.com/drive/folders/1071BfoIrTB6qLurCf3S_SnujvRnSvepB?usp=sharing' target="_blank" className='other-projects-item'>
+ <img src='https://i.imgur.com/kDCa7QB.png' alt='podcast' id='project-img'/>
+ <p className='project-title'>Casually Adept Podcast</p>
+</a>*/
 
 const layout = layoutGenerator({
     mobile: 0,
@@ -57,12 +65,12 @@ const layout = layoutGenerator({
                     {/* eslint-disable-next-line*/} 
                     <a href='https://www.topictournaments.com' target="_blank" className='other-projects-item'>
                         <img src='https://i.imgur.com/qXF14ee.png' alt='Topic-Tourny-Game' id='project-img'/>
-                        <p className='project-title'>Topic Tournaments Game</p>
+                        <p className='project-title'>Medium Blog Posts</p>
                     </a>
-                    {/* eslint-disable-next-line*/} 
-                    <a href='https://drive.google.com/drive/folders/1071BfoIrTB6qLurCf3S_SnujvRnSvepB?usp=sharing' target="_blank" className='other-projects-item'>
-                        <img src='https://i.imgur.com/kDCa7QB.png' alt='podcast' id='project-img'/>
-                        <p className='project-title'>Casually Adept Podcast</p>
+                   {/* eslint-disable-next-line*/} 
+                   <a href='https://medium.com/cultural-commentary' target="_blank" className='other-projects-item'>
+                        <img src={medium} alt='medium' id='project-img'/>
+                        <p className='project-title'>Medium Blog Posts</p>
                     </a>
                 </div>
             </div>
