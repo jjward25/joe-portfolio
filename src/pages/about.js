@@ -7,6 +7,7 @@ import biz from '../assets/img-biz.png';
 import { layoutGenerator } from 'react-break';
 import MobileMenu from '../components/mobile-menu';
 import medium from '../assets/icon-medium.png'
+import github from '../assets/icon-github.png'
 
 /*
  {/* eslint-disable-next-line} 
@@ -65,12 +66,17 @@ const layout = layoutGenerator({
                     {/* eslint-disable-next-line*/} 
                     <a href='https://www.topictournaments.com' target="_blank" className='other-projects-item'>
                         <img src='https://i.imgur.com/qXF14ee.png' alt='Topic-Tourny-Game' id='project-img'/>
-                        <p className='project-title'>Medium Blog Posts</p>
+                        <p className='project-title'>The Bracket Game</p>
                     </a>
                    {/* eslint-disable-next-line*/} 
                    <a href='https://medium.com/cultural-commentary' target="_blank" className='other-projects-item'>
                         <img src={medium} alt='medium' id='project-img'/>
                         <p className='project-title'>Medium Blog Posts</p>
+                    </a>
+                    {/* eslint-disable-next-line*/} 
+                   <a href='https://github.com/jjward25?tab=repositories' target="_blank" className='other-projects-item'>
+                        <img src={github} alt='coding' id='project-img'/>
+                        <p className='project-title'>Github Code Repos</p>
                     </a>
                 </div>
             </div>
