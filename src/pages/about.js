@@ -6,8 +6,7 @@ import tree from '../assets/img-tree.png';
 import biz from '../assets/img-biz.png';
 import { layoutGenerator } from 'react-break';
 import MobileMenu from '../components/mobile-menu';
-import medium from '../assets/icon-medium.png'
-import github from '../assets/icon-github.png'
+import medium from '../assets/icon-medium.png';
 
 /*
  {/* eslint-disable-next-line} 
