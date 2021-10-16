@@ -354,14 +354,14 @@
 }
 .about-header {
     padding-top: 4%;
-    padding-bottom: 2.5%;
+    padding-bottom: 5%;
     font-size: 175%;
     font-weight: 600;
 }
 .about-text {
     font-size: 100%;
     line-height: 1.7;
-    padding-bottom: 2.5%;
+    padding-bottom: 5%;
     max-width: 75%;
 }
 .other-projects-wrap{

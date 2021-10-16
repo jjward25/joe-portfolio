@@ -33,6 +33,16 @@ return (
 
         <div className='social-section'>
             {/* eslint-disable-next-line*/} 
+            <Link to='/about' ><div className='social-item'>
+                <div className='social-icon'><img src={about} alt='medium'  title={`About`} id='social-button'/></div>
+                <OnAtLeastTablet className='social-title'>About</OnAtLeastTablet>
+            </div></Link>
+            {/* eslint-disable-next-line*/} 
+            <Link to='/portfolio'><div className='social-item'>
+                <div className='social-icon'><img src={testimonials} alt='medium'  title={`Testimonials`} id='social-button'/></div>
+                <OnAtLeastTablet className='social-title'>Testimonials</OnAtLeastTablet>
+            </div></Link>
+            {/* eslint-disable-next-line*/} 
             <a href='https://www.linkedin.com/in/joe-ward1/' target="_blank" ><div className='social-item'>
                 <div className='social-icon'><img src={linkedin} alt='LinkedIn'  title={`LinkedIn`} id='social-button'/></div>
                 <OnAtLeastTablet className='social-title'>LinkedIn</OnAtLeastTablet>
@@ -41,17 +51,7 @@ return (
             <a href='https://github.com/jjward25?tab=repositories' target="_blank" ><div className='social-item'>
                 <div className='social-icon'><img src={github} alt='github'  title={`Github`} id='social-button'/></div>
                 <OnAtLeastTablet className='social-title'>Github</OnAtLeastTablet>
-            </div></a>
-            {/* eslint-disable-next-line*/} 
-            <Link to='/portfolio'><div className='social-item'>
-                <div className='social-icon'><img src={testimonials} alt='medium'  title={`Testimonials`} id='social-button'/></div>
-                <OnAtLeastTablet className='social-title'>Testimonials</OnAtLeastTablet>
-            </div></Link>
-             {/* eslint-disable-next-line*/} 
-             <Link to='/about' ><div className='social-item'>
-                <div className='social-icon'><img src={about} alt='medium'  title={`About`} id='social-button'/></div>
-                <OnAtLeastTablet className='social-title'>About Joe</OnAtLeastTablet>
-            </div></Link>
+            </div></a>          
         </div>
         
         <div className='sidebar-slogan'>Let's make things, better.</div>
