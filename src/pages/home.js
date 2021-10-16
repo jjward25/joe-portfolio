@@ -59,7 +59,7 @@ return (
                             <li className='skill-list'>Creating stable, repeatable reporting and analytics using available data and free tools (ie: Tableau). </li>
                             <li className='skill-list'>Pulling external data via python webscrapers or public APIs.</li>
                             <li className='skill-list'>{'Tune-Ups: Individual and team interviews, process mapping, solutions design, industry best practices, review and final design, then implementation of the designed solution.'}</li>
-                            <li className='skill-list'>Ad Hoc Analyses and Deep-Dives: measuring efficiency, process times, widgets, whatever's available to dig for opportunities in specific areas, then combining this information with industry research for a best-in-class solution.</li>
+                            <li className='skill-list'>Ad Hoc Analyses and Deep-Dives: measuring efficiency, process times, widgets, whatever's available to dig for opportunities in specific areas, then combining this information with industry research for a best-in-class solution or opportunity.</li>
                         </div>
                         <div className='carousel-wrap'>
                             {/* eslint-disable-next-line*/} 
