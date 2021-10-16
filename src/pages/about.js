@@ -48,15 +48,10 @@ const layout = layoutGenerator({
             <OnMobile className='mobile-filler'> </OnMobile>
             <div className='about-box'>
                 <div className='about-header'>I use modern tools and techniques to help small businesses operate more like big ones.</div>
-                <div className='about-text'>In general, I think breadth matters more than depth. I think that past a certain point of awareness, there is far greater value in having a variety 
-                                            of experiences to pull from than in reading more best-in-class consulting decks and whitepapers. Not because the papers aren't useful or insightful, 
-                                            but because we can read them any time.  I gain the most valuable knowledge from <em>you</em>.</div>
-                <div className='about-text'>It's important to know where to find the best practices (ie: what do the most recognized certifications teach?), how to use the tools, and actually 
-                                            do the work.  Skills have baseline competencies that are specific to each job, but industries, companies, teams, and problems simply need 
-                                            to be understood.</div>
-                <div className='about-text'>Understanding requires good communication. I foster an environment of trust with my engagements, acting on behalf
-                                             of every team member as I help find solutions to your team's most persistent issues. Then I'll use tools like Tableau, Python, or my project management experience to help you
-                                             implement and monitor everything we come up with.</div>
+                <div className='about-text'>I use Six Sigma best practices, and years of experience managing projects and using tools like SQL, Tableau, and Python, to find the best solutions to your team's toughest problems.</div>
+                <div className='about-text'>With a combination of process mapping, statistical analyses, free tools <em>(for re-usability)</em>, and other quantitive and qualitative inputs, we'll draw the best picture possible of your team's current state, then implement the most effective and efficient solution for tomorrow.</div>
+                <div className='about-text'>Effective improvement requires effective communication, and as a PMP certified Project Manager, I have over <em>10,000 hours</em> experience managing improvement initiatives at small non-profits, and companies as large as TD Ameritrade and Citigroup.</div>
+                <div className='about-text'>I bring in every relevant stakeholder and actively engage them in drawing the most accurate picture of today's operations, coming up with the best solutions for everyone, then implementing and managing the change.  Just send an e-mail with your organization's website and a summary of the current pain points to start solving for tomorrow.</div>
             </div>
 
             <div className='other-projects-wrap'>

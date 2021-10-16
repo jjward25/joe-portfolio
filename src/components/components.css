@@ -221,8 +221,8 @@
         height: auto;
     }
     #title-img{
-        margin-top: 2.5vh;
-        margin-bottom: 5vh;
+        margin-top: 5vh;
+        margin-bottom: 3.5vh;
     }
     .sidebar-selfie {
         height: 12.5vh;
@@ -231,14 +231,15 @@
         width: 62.5%;
     }
     .sidebar-email{
-        padding-top: 2.5vh;
+        padding-top: 3.5vh;
         font-size: 105%;
         padding-bottom: 0;
+        height: auto;
     }
     .social-section {
         height: 12.5vh;
         margin-bottom: 5vh;
-        margin-top: 2.5vh;
+        margin-top: 5vh;
         justify-content: space-between;
     }
     .social-item{
