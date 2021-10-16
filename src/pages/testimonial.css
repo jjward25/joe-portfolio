@@ -59,7 +59,7 @@
 
 .testimonial-description{
     grid-area: e;
-    margin: auto;
+    margin: 1% auto;
     margin-left: 5%;
     margin-right: 5%;
     font-style: italic;
@@ -93,6 +93,7 @@
 
     .testimonial-wrap {
         margin-top: 15vh;
+        margin-bottom: 7.5%;
     }
 
     .testimonial {
@@ -106,7 +107,7 @@
         height: auto;
     }
     .testimonial-description {
-        margin: 0 auto;
+        margin: 1% auto;
         padding: 0;
         padding-left: 5%;
         padding-right: 2.5%;
