@@ -14,10 +14,6 @@ import python from '../assets/img-skill-python.png';
 import pmp_logo from '../assets/work-pmp.png';
 import schwab from '../assets/work-schwab.png';
 import tda from '../assets/work-tda.png';
-import pythonAPI from '../assets/portfolio-python-api.PNG';
-import adeptProcessMap from '../assets/portfolio-figma-process-map.PNG';
-import whitepaper from '../assets/portfolio-whitepaper.PNG';
-import webscraper from '../assets/portfolio-webscraper.PNG';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import MobileHomeNav from '../components/mobile-home-nav';
@@ -73,19 +69,19 @@ return (
                                     <div className='legend'>Advanced Shopify Analytics</div>
                                 </div></a>
                                 <a href='https://i.imgur.com/DGgdJD4.png' target='_blank' rel='noreferrer'><div className='carousel-item'>
-                                    <img src={adeptProcessMap} alt='process map' id='portfolio-img'/>
+                                    <img src="https://i.imgur.com/xa4YmjI.png" alt='process map' id='portfolio-img'/>
                                     <div className='legend'>{'Process Mapping & Design'}</div>
                                 </div></a>
                                 <a href='https://medium.com/cultural-commentary/strategic-resiliency-in-large-corporations-6003c35f98f6' target='_blank' rel='noreferrer'><div className='carousel-item'>
-                                    <img src={whitepaper} alt='adept' id='portfolio-img'/>
+                                    <img src="https://i.imgur.com/0yJMUPF.png" alt='adept' id='portfolio-img'/>
                                     <div className='legend'>Business Strategy</div>
                                 </div></a>
                                 <a href='https://github.com/jjward25/python-ca_scrapers' target='_blank' rel='noreferrer'><div className='carousel-item'>
-                                    <img src={webscraper} alt='adept' id='portfolio-img'/>
+                                    <img src="https://i.imgur.com/YwqRnJH.png" alt='adept' id='portfolio-img'/>
                                     <div className='legend'>Python Webscraper</div>
                                 </div></a>
                                 <a href='https://github.com/jjward25/python.crypto-data' target='_blank' rel='noreferrer'><div className='carousel-item'>
-                                    <img src={pythonAPI} alt='crypto-api-python' id='portfolio-img'/>
+                                    <img src="https://i.imgur.com/FsQAlxp.png" alt='crypto-api-python' id='portfolio-img'/>
                                     <div className='legend'>Crypto Market Data API Pull</div>
                                 </div></a>
                             </Carousel>
