@@ -79,6 +79,9 @@
     margin:2.5vh auto;
     margin-top: 0;
     margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .social-item {
     display: grid;
@@ -134,7 +137,6 @@
     align-items: center;
     justify-content: center;  
     margin: 0 auto;
-    margin-top: 5vh;
     font-size: 130%;
     font-weight: bold;
     text-align: center;
@@ -172,7 +174,7 @@
     background-color: #111F2D;
 }
 #mobile-button {
-    width: 70%;
+    width: 60%;
     padding-top: 10%;
     padding-left: 10%;
     padding-right: 10%;
@@ -220,9 +222,11 @@
     .sidebar-email{
         padding-top: 5vh;
         font-size: 105%;
+        padding-bottom: 0;
     }
     .social-section{
         display: flex;
+        flex-direction: row;
         justify-items: space-around;
         max-height: 8vh;
         margin: auto;

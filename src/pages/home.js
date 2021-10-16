@@ -14,8 +14,6 @@ import python from '../assets/img-skill-python.png';
 import pmp_logo from '../assets/work-pmp.png';
 import schwab from '../assets/work-schwab.png';
 import tda from '../assets/work-tda.png';
-import procurementDash from '../assets/portfolio-tableau-procurement.png';
-import shopifyDash from '../assets/portfolio-shopify.PNG';
 import pythonAPI from '../assets/portfolio-python-api.PNG';
 import adeptProcessMap from '../assets/portfolio-figma-process-map.PNG';
 import whitepaper from '../assets/portfolio-whitepaper.PNG';
@@ -62,44 +60,33 @@ return (
                 <div className='skill-main'>
                     <div id='skill-header'>Sample Projects:</div>
                         <div className='home-text-wrap'> 
-                            <li className='skill-list'>Creating a stable reporting environment using available data and free tools. </li>
-                            <li className='skill-list'>{'Strategic Reviews: Individual and team interviews -> process mapping -> rough solutions design -> research industry best practices -> review and final design -> implementation.'}</li>                        
-                            <li className='skill-list'>Leveling-up standard reporting from Shopify and other platforms with Tableau.</li>
-                            <li className='skill-list'>Pulling external data via python webscrapers or public APIs; combining with industry research for ad hoc analyses.</li>
-                            <li className='skill-list'>One-time internal deep-dives; measuring effiency, process times, widgets, whatever's available to dig for opportunities.</li>
+                            <li className='skill-list'>Creating stable, repeatable reporting and analytics using available data and free tools (ie: Tableau). </li>
+                            <li className='skill-list'>Pulling external data via python webscrapers or public APIs.</li>
+                            <li className='skill-list'>{'Broad Strategic Reviews: Individual and team interviews, process mapping, solutions design, industry best practices, review and final design, then implementation of the designed solution.'}</li>
+                            <li className='skill-list'>Ad Hoc Analyses and Deep-Dives: measuring effiency, process times, widgets, whatever's available to dig for opportunities in specific areas, then combining this information with industry research for a best-in-class solution.</li>
                         </div>
                         <div className='carousel-wrap'>
                             {/* eslint-disable-next-line*/} 
                             <Carousel className='carousel-inner-wrap' showArrows={true} showThumbs={false} showArrows={true} infiniteLoop={true} centerMode={.33} swipeable={true}>
-                                {/* eslint-disable-next-line*/} 
-                                <a href='https://www.youtube.com/watch?v=j_YyXltl4Is' target='_blank'><div className='carousel-item'>
-                                    <img src={procurementDash} alt='tableau' id='portfolio-img'/>
-                                    <div className='legend'>Analytics Dashboard</div>
+                                <a href='https://imgur.com/a/uMF7jUq' target='_blank' rel='noreferrer'><div className='carousel-item'>
+                                    <img src='https://i.imgur.com/axXKT0E.png' alt='tableau-shopify' id='portfolio-img'/>
+                                    <div className='legend'>Advanced Shopify Analytics</div>
                                 </div></a>
-                                {/* eslint-disable-next-line*/} 
-                                <a href='https://i.imgur.com/DGgdJD4.png' target='_blank'><div className='carousel-item'>
+                                <a href='https://i.imgur.com/DGgdJD4.png' target='_blank' rel='noreferrer'><div className='carousel-item'>
                                     <img src={adeptProcessMap} alt='process map' id='portfolio-img'/>
                                     <div className='legend'>{'Process Mapping & Design'}</div>
                                 </div></a>
-                                {/* eslint-disable-next-line*/} 
-                                <a href='https://github.com/jjward25/python.crypto-data' target='_blank'><div className='carousel-item'>
-                                    <img src={pythonAPI} alt='crypto-api-python' id='portfolio-img'/>
-                                    <div className='legend'>Crypto Market Data API</div>
-                                </div></a>
-                                {/* eslint-disable-next-line*/} 
-                                <a href='https://imgur.com/a/uMF7jUq' target='_blank'><div className='carousel-item'>
-                                    <img src={shopifyDash} alt='tableau-shopify' id='portfolio-img'/>
-                                    <div className='legend'>Advanced Shopify Reporting</div>
-                                </div></a>
-                                {/* eslint-disable-next-line*/} 
-                                <a href='https://medium.com/cultural-commentary/strategic-resiliency-in-large-corporations-6003c35f98f6' target='_blank'><div className='carousel-item'>
+                                <a href='https://medium.com/cultural-commentary/strategic-resiliency-in-large-corporations-6003c35f98f6' target='_blank' rel='noreferrer'><div className='carousel-item'>
                                     <img src={whitepaper} alt='adept' id='portfolio-img'/>
                                     <div className='legend'>Business Strategy</div>
                                 </div></a>
-                                {/* eslint-disable-next-line*/} 
-                                <a href='https://github.com/jjward25/python-ca_scrapers' target='_blank'><div className='carousel-item'>
+                                <a href='https://github.com/jjward25/python-ca_scrapers' target='_blank' rel='noreferrer'><div className='carousel-item'>
                                     <img src={webscraper} alt='adept' id='portfolio-img'/>
                                     <div className='legend'>Python Webscraper</div>
+                                </div></a>
+                                <a href='https://github.com/jjward25/python.crypto-data' target='_blank' rel='noreferrer'><div className='carousel-item'>
+                                    <img src={pythonAPI} alt='crypto-api-python' id='portfolio-img'/>
+                                    <div className='legend'>Crypto Market Data API Pull</div>
                                 </div></a>
                             </Carousel>
                         </div>

@@ -73,11 +73,6 @@ const layout = layoutGenerator({
                         <img src={medium} alt='medium' id='project-img'/>
                         <p className='project-title'>Medium Blog Posts</p>
                     </a>
-                    {/* eslint-disable-next-line*/} 
-                   <a href='https://github.com/jjward25?tab=repositories' target="_blank" className='other-projects-item'>
-                        <img src={github} alt='coding' id='project-img'/>
-                        <p className='project-title'>Github Code Repos</p>
-                    </a>
                 </div>
             </div>
           </div>

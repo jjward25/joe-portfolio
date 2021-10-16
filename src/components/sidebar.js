@@ -6,7 +6,6 @@ import name from '../assets/joeward.png';
 import selfie from '../assets/selfie-circle.png';
 import linkedin from '../assets/icon-linkedin.png';
 import github from '../assets/icon-github.png';
-import medium from '../assets/icon-medium.png';
 import skillbar from '../assets/img-skillbar.png';
 import about from '../assets/icon-about.png';
 import testimonials from '../assets/icon-testimonials.png';
@@ -42,11 +41,6 @@ return (
             <a href='https://github.com/jjward25?tab=repositories' target="_blank" ><div className='social-item'>
                 <div className='social-icon'><img src={github} alt='github'  title={`Github`} id='social-button'/></div>
                 <OnAtLeastTablet className='social-title'>Github</OnAtLeastTablet>
-            </div></a>
-            {/* eslint-disable-next-line*/} 
-            <a href='https://medium.com/cultural-commentary' target="_blank" ><div className='social-item'>
-                <div className='social-icon'><img src={medium} alt='medium'  title={`Medium`} id='social-button'/></div>
-                <OnAtLeastTablet className='social-title'>Medium</OnAtLeastTablet>
             </div></a>
             {/* eslint-disable-next-line*/} 
             <Link to='/portfolio'><div className='social-item'>
