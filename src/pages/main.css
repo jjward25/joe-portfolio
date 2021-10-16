@@ -466,9 +466,14 @@
     }
     .carousel-wrap{
         padding: 5%;
+        padding-right: 1%;
+        padding-left: 1%;
         padding-bottom: 7.5%;
         height: auto;
         margin-top: 0;
+    }
+    .control-arrow{
+        width: 10%;
     }
     .carousel .slider-wrapper {
         width: 102% !important;
