@@ -225,9 +225,9 @@
         padding-bottom: 0;
     }
     .social-section {
-        height: 15vh;
+        height: 12.5vh;
         margin-bottom: 5vh;
-        margin-top: 5vh;
+        margin-top: 2.5vh;
         justify-content: space-between;
     }
     .social-item{

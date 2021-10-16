@@ -10,7 +10,7 @@ function MobileHomeNav() {
         </div></Link>
 
         <Link to='/about' className='nav-link'><div className='nav-item'>
-            <div className='nav-text'>About Joe</div>
+            <div className='nav-text'>About</div>
         </div></Link>
     </div>
     )}
