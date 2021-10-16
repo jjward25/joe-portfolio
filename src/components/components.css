@@ -220,7 +220,7 @@
         border-right: 0px;
     }
     .sidebar-email{
-        padding-top: 5vh;
+        padding-top: 2.5vh;
         font-size: 105%;
         padding-bottom: 0;
     }
@@ -236,6 +236,9 @@
     #social-button {
         align-items: center;
         margin: 0 auto;
+    }
+    .social-title {
+        font-weight: normal;
     }
     .sidebar-slogan {
         font-size: 110%;
