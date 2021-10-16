@@ -1,22 +1,11 @@
 import React from 'react';
 import './components.css'
-import { layoutGenerator } from 'react-break';
 import {Link} from 'react-router-dom';
 import name from '../assets/joeward.png';
 import selfie from '../assets/selfie-circle.png';
 import linkedin from '../assets/icon-linkedin.png';
 import github from '../assets/icon-github.png';
-import medium from '../assets/icon-medium.png';
 import skillbar from '../assets/img-skillbar.png';
-
-const layout = layoutGenerator({
-  mobile: 0,
-  phablet: 550,
-  tablet: 787,
-  desktop: 992,
-});
-
-const OnAtLeastTablet = layout.isAtLeast('tablet');
 
 function Sidebar() {
 return (
