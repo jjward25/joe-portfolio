@@ -7,7 +7,6 @@ import biz from '../assets/img-biz.png';
 import { layoutGenerator } from 'react-break';
 import MobileMenu from '../components/mobile-menu';
 import medium from '../assets/icon-medium.png';
-import resume from '../assets/resume.PNG';
 
 /*
  {/* eslint-disable-next-line} 
@@ -67,11 +66,6 @@ const layout = layoutGenerator({
                    <a href='https://medium.com/cultural-commentary' target="_blank" className='other-projects-item'>
                         <img src={medium} alt='medium' id='project-img'/>
                         <p className='project-title'>Medium Blog Posts</p>
-                    </a>
-                    {/* eslint-disable-next-line*/} 
-                   <a href='https://www.linkedin.com/in/joe-ward1/' target="_blank" className='other-projects-item'>
-                        <img src={resume} alt='resume' id='project-img'/>
-                        <p className='project-title'>Resume Image</p>
                     </a>
                 </div>
             </div>
